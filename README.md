@@ -3,17 +3,13 @@
 Introduction
 
 -   SDLC Basics
-
 -   What is DevOps ?
-
 -   Why DevOps ?
 
 OS & Networking
 
 -   OS (Linux)
-
 -   Networking
-
 -   Bash
 
 Scripting
@@ -23,7 +19,6 @@ Scripting
 Version Control
 
 -   GIT
-
 -   Github
 
 Cloud Basics
@@ -37,35 +32,28 @@ Cloud Basics
 -   Data Storage
 
     -   AWS S3
-
     -   AWS RDS
-
     -   AWS Dynamo DB
 
--   AWS Networking
+-   Networking
 
     -   AWS VPC
-
     -   AWS Direct Connect
+    -   AWS CloudFront
+    -   AWS Route 53
+    -   AWS ELB
 
-    -   Amazon CloudFront
+-   Compute
 
--   AWS Compute
-
-    -   EC2
-
-    -   Lambda
+    -   AWS EC2
+    -   AWS Lambda
 
 Continuous Integration & Deployment
 
 -   Github Workflow
-
 -   Github Actions
-
 -   CI CD Pipeline
-
 -   Git Best Practices
-
 -   Pipeline Security
 
 Containerisation and Orchestration
@@ -73,37 +61,26 @@ Containerisation and Orchestration
 -   Docker
 
     -   Architecture
-
     -   Networking
-
     -   Storage
-
     -   Security
-
     -   CI/CD Integration
 
 -   Kubernetes
 
     -   Architecture
-
     -   Networking
-
     -   Storage
-
     -   Security
-
     -   Ci/CD Integration
 
 Infrastructure as a Code
 
 -   Terraform
-
 -   Ansible
 
 Monitoring
 
 -   CloudWatch (Primary)
-
 -   Prometheus
-
 -   Grafana
