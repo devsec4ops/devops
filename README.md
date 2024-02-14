@@ -1,2 +1,109 @@
 # Complete DevOps Course
 
+Introduction
+
+-   SDLC Basics
+
+-   What is DevOps ?
+
+-   Why DevOps ?
+
+OS & Networking
+
+-   OS (Linux)
+
+-   Networking
+
+-   Bash
+
+Scripting
+
+-   Python
+
+Version Control
+
+-   GIT
+
+-   Github
+
+Cloud Basics
+
+-   AWS Well-Architected Framework
+
+-   Identity & Access Management
+
+    -   AWS IAM
+
+-   Data Storage
+
+    -   AWS S3
+
+    -   AWS RDS
+
+    -   AWS Dynamo DB
+
+-   AWS Networking
+
+    -   AWS VPC
+
+    -   AWS Direct Connect
+
+    -   Amazon CloudFront
+
+-   AWS Compute
+
+    -   EC2
+
+    -   Lambda
+
+Continuous Integration & Deployment
+
+-   Github Workflow
+
+-   Github Actions
+
+-   CI CD Pipeline
+
+-   Git Best Practices
+
+-   Pipeline Security
+
+Containerisation and Orchestration
+
+-   Docker
+
+    -   Architecture
+
+    -   Networking
+
+    -   Storage
+
+    -   Security
+
+    -   CI/CD Integration
+
+-   Kubernetes
+
+    -   Architecture
+
+    -   Networking
+
+    -   Storage
+
+    -   Security
+
+    -   Ci/CD Integration
+
+Infrastructure as a Code
+
+-   Terraform
+
+-   Ansible
+
+Monitoring
+
+-   CloudWatch (Primary)
+
+-   Prometheus
+
+-   Grafana
