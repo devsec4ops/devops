@@ -1,6 +1,8 @@
-# Complete DevOps Course
+# Course Contents
 
-Confluence link : https://devsec4ops.atlassian.net/wiki/spaces/~712020fcd8aa3613034c7488d54d594c06156c/pages/3014657/DevOps-Course-1
+In this course, you will learn the fundamentals of DevOps. You will learn how to use DevOps tools and practices to improve your software development and delivery process.
+
+Below are the topics that will be covered in this course:
 
 ## Introduction
 
