@@ -1,5 +1,4 @@
-name: Deploy MkDocs to GitHub Pages
-
+name: Deploy MkDocs to gh-pages branch
 on:
   push:
     branches:
