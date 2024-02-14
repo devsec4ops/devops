@@ -1,5 +1,7 @@
 # Complete DevOps Course
 
+Confluence link : https://devsec4ops.atlassian.net/wiki/spaces/~712020fcd8aa3613034c7488d54d594c06156c/pages/3014657/DevOps-Course-1
+
 Introduction
 
 -   SDLC Basics
