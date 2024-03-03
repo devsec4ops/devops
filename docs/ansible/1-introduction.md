@@ -1,4 +1,4 @@
-# Introduction to Ansible
+# Introduction
 
 ## What is Ansible?
 

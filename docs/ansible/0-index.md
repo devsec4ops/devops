@@ -1,4 +1,5 @@
-# Ansible index
+# Index
+
 ## Introduction to Ansible
 - What is Ansible?
 - Why use Ansible?
