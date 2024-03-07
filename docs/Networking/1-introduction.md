@@ -1,64 +1,51 @@
-# Networking Concepts Overview
+# Non-Functional Requirements for Networking Infrastructure
+Networking involves connecting computers, servers, and other devices to share data and resources, enabling communication and collaboration across different locations. 
+Networking is foundational to the internet, enterprise environments, and various forms of digital communication.
 
-## Contents
+This document outlines the key non-functional requirements (NFRs) crucial for designing and operating a robust, secure, and efficient networking infrastructure. These requirements are particularly relevant when dealing with Docker, Kubernetes, AWS, and other cloud or container orchestration technologies.
 
-- [OSI Model](#osi-model)
-- [Protocols](#protocols)
-  - TCP
-  - UDP
-  - IP
-- [Ports](#ports)
-- [IP Addressing](#ip-addressing)
-- [Subnetting](#subnetting)
-- [Routing](#routing)
-- [Switching](#switching)
-- [DNS](#dns)
-- [VPN (Virtual Private Network)](#vpn-virtual-private-network)
-- [Firewalls](#firewalls)
-- [Networking Tools](#networking-tools)
-- [Network Security](#network-security)
-- [Wireless Networking](#wireless-networking)
-- [Network Topologies](#network-topologies)
-- [DHCP (Dynamic Host Configuration Protocol)](#dhcp-dynamic-host-configuration-protocol)
-- [NAT (Network Address Translation)](#nat-network-address-translation)
-- [VLANs (Virtual Local Area Networks)](#vlans-virtual-local-area-networks)
+## Table of Contents
 
-## OSI Model
+- [Scalability](#scalability)
+- [Performance](#performance)
+- [Reliability](#reliability)
+- [Security](#security)
+- [Maintainability](#maintainability)
+- [Compliance](#compliance)
 
-## Protocols
+## Scalability
 
-### TCP
+- **Horizontal and Vertical Scaling**: Support for adding more machines (horizontal) and adding more resources to existing machines (vertical).
+- **Auto-scaling**: Capabilities for automatically adjusting resources based on demand, especially in cloud services like AWS.
 
-### UDP
+## Performance
 
-### IP
+- **Low Latency**: Minimize delay in network communication, crucial for real-time applications.
+- **High Throughput**: Ability to handle significant data transfer volumes efficiently.
+- **Efficient Resource Utilization**: Optimization of computing, storage, and network resources.
 
-## Ports
+## Reliability
 
-## IP Addressing
+- **High Availability**: Designing the network to ensure services are consistently available with minimal downtime, utilizing redundancy and failover systems.
+- **Fault Tolerance**: Maintaining operational continuity in the event of component failures, through service or data replication.
 
-## Subnetting
+## Security
 
-## Routing
+- **Data Encryption**: Ensuring data is encrypted both in transit and at rest to protect sensitive information.
+- **Access Control**: Implementing strict measures for authentication and authorization to secure network resources.
+- **Network Segmentation**: Utilizing techniques like VPCs and subnets for isolating network segments, reducing breach impacts.
 
-## Switching
+## Maintainability
 
-## DNS
+- **Automated Deployments and Rollbacks**: Facilitating quick updates and issue resolutions with minimal downtime.
+- **Monitoring and Logging**: Comprehensive monitoring of network traffic, resource utilization, and application performance for effective troubleshooting.
+- **Documentation**: Keeping detailed documentation on network architecture, configurations, and operational procedures.
 
-## VPN (Virtual Private Network)
+## Compliance
 
-## Firewalls
+- **Regulatory Compliance**: Adhering to laws and standards relevant to data protection (GDPR), healthcare information (HIPAA), payment data (PCI DSS), etc.
+- **Data Sovereignty**: Ensuring data storage and processing comply with local laws and regulations.
 
-## Networking Tools
+---
 
-## Network Security
 
-## Wireless Networking
-
-## Network Topologies
-
-## DHCP (Dynamic Host Configuration Protocol)
-
-## NAT (Network Address Translation)
-
-## VLANs (Virtual Local Area Networks)
