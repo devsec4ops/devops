@@ -1,2 +1,17 @@
 site_name: DevOps Fundamentals
 theme: material
+nav:
+  - Home: "index.md"
+  - Introduction: 0-introduction/
+  - OS & Networking: 1-os-networking/
+  - Scripting: 2-scripting/
+  - Version Control: 3-version-control/
+  - Cloud Basics: 4-cloud-basics/
+  - Continuous Integration & Deployment: 5-ci-cd/
+  - Containerisation and Orchestration: 6-containerisation-orchestration/
+  - Infrastructure as a Code: 7-iaas
+  - Monitoring: 8-monitoring/
+
+plugins:
+  - search
+  - literate-nav
