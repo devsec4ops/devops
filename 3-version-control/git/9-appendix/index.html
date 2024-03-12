@@ -9,21 +9,25 @@
       
       
       
+        <link rel="prev" href="../4-branching/">
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+        <link rel="next" href="../../../4-cloud-basics/AWS/1-introduction/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.13">
     
     
       
-        <title>DevOps Fundamentals</title>
+        <title>GIT Commands - DevOps Fundamentals</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.7e359304.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e359304.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -42,7 +46,7 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -65,6 +69,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#git-commands" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -77,7 +86,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="DevOps Fundamentals" class="md-header__button md-logo" aria-label="DevOps Fundamentals" data-md-component="logo">
+    <a href="../../.." title="DevOps Fundamentals" class="md-header__button md-logo" aria-label="DevOps Fundamentals" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -97,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              GIT Commands
             
           </span>
         </div>
@@ -172,7 +181,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="DevOps Fundamentals" class="md-nav__button md-logo" aria-label="DevOps Fundamentals" data-md-component="logo">
+    <a href="../../.." title="DevOps Fundamentals" class="md-nav__button md-logo" aria-label="DevOps Fundamentals" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -190,7 +199,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -245,7 +254,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/0-introduction/SDLC-basics/" class="md-nav__link">
+      <a href="../../../0-introduction/SDLC-basics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -308,7 +317,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/1-os-networking/0-index/" class="md-nav__link">
+      <a href="../../../1-os-networking/0-index/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -329,7 +338,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/1-os-networking/1-introduction/" class="md-nav__link">
+      <a href="../../../1-os-networking/1-introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -350,7 +359,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/1-os-networking/non-functional-requirements/" class="md-nav__link">
+      <a href="../../../1-os-networking/non-functional-requirements/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -448,7 +457,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/2-scripting/python/1-introduction/" class="md-nav__link">
+      <a href="../../../2-scripting/python/1-introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -469,7 +478,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/2-scripting/python/2-datatypes-and-variables/" class="md-nav__link">
+      <a href="../../../2-scripting/python/2-datatypes-and-variables/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -490,7 +499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/2-scripting/python/3-control-flow/" class="md-nav__link">
+      <a href="../../../2-scripting/python/3-control-flow/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -511,7 +520,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/2-scripting/python/4-functions/" class="md-nav__link">
+      <a href="../../../2-scripting/python/4-functions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -532,7 +541,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/2-scripting/python/5-data-structures/" class="md-nav__link">
+      <a href="../../../2-scripting/python/5-data-structures/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -553,7 +562,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/2-scripting/python/6-modules/" class="md-nav__link">
+      <a href="../../../2-scripting/python/6-modules/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -574,7 +583,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/2-scripting/python/7-file-io/" class="md-nav__link">
+      <a href="../../../2-scripting/python/7-file-io/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -595,7 +604,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/2-scripting/python/8-exception-handling/" class="md-nav__link">
+      <a href="../../../2-scripting/python/8-exception-handling/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -616,7 +625,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/2-scripting/python/9-oops/" class="md-nav__link">
+      <a href="../../../2-scripting/python/9-oops/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -649,17 +658,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -673,7 +684,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Version Control
@@ -687,7 +698,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/3-version-control/0-version-control/" class="md-nav__link">
+      <a href="../../0-version-control/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -705,17 +716,19 @@
                 
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" checked>
         
           
           <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
@@ -729,7 +742,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5_2">
             <span class="md-nav__icon md-icon"></span>
             Git
@@ -743,7 +756,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/3-version-control/git/0-introduction/" class="md-nav__link">
+      <a href="../0-introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -764,7 +777,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/3-version-control/git/1-getting-started/" class="md-nav__link">
+      <a href="../1-getting-started/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -785,7 +798,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/3-version-control/git/2-basics/" class="md-nav__link">
+      <a href="../2-basics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -806,7 +819,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/3-version-control/git/3-remotes/" class="md-nav__link">
+      <a href="../3-remotes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -827,7 +840,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/3-version-control/git/4-branching/" class="md-nav__link">
+      <a href="../4-branching/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -845,10 +858,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/3-version-control/git/9-appendix/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    GIT Commands
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -857,6 +890,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Commands
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remote-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Remote Commands
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#branching-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Branching Commands
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -954,7 +1034,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/4-cloud-basics/AWS/1-introduction/" class="md-nav__link">
+      <a href="../../../4-cloud-basics/AWS/1-introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -990,7 +1070,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/5-ci-cd" class="md-nav__link">
+      <a href="../../../5-ci-cd" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1010,7 +1090,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/6-containerisation-orchestration" class="md-nav__link">
+      <a href="../../../6-containerisation-orchestration" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1100,7 +1180,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/7-iaas/ansible/0-index/" class="md-nav__link">
+      <a href="../../../7-iaas/ansible/0-index/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1121,7 +1201,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/7-iaas/ansible/1-introduction/" class="md-nav__link">
+      <a href="../../../7-iaas/ansible/1-introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1142,7 +1222,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/7-iaas/ansible/2-installation/" class="md-nav__link">
+      <a href="../../../7-iaas/ansible/2-installation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1178,7 +1258,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/8-monitoring" class="md-nav__link">
+      <a href="../../../8-monitoring" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1208,6 +1288,43 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Commands
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remote-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Remote Commands
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#branching-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Branching Commands
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1219,8 +1336,144 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+<h1 id="git-commands">GIT Commands</h1>
+<h2 id="basic-commands">Basic Commands</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git init</code></td>
+<td>Initializes a new Git repository in the current directory</td>
+</tr>
+<tr>
+<td><code>git clone &lt;repository-url&gt;</code></td>
+<td>Clones an existing Git repository.</td>
+</tr>
+<tr>
+<td><code>git status</code></td>
+<td>Shows the current status of the repository.</td>
+</tr>
+<tr>
+<td><code>git add &lt;file-name&gt;</code></td>
+<td>Stages changes for a commit.</td>
+</tr>
+<tr>
+<td><code>git add .</code></td>
+<td>Stages all changes for a commit.</td>
+</tr>
+<tr>
+<td><code>git restore --staged &lt;file&gt;</code></td>
+<td>Unstages changes.</td>
+</tr>
+<tr>
+<td><code>git reset HEAD .</code></td>
+<td>Unstages all changes.</td>
+</tr>
+<tr>
+<td><code>git restore &lt;file&gt;</code></td>
+<td>Discards changes in the working directory.</td>
+</tr>
+<tr>
+<td><code>git diff --staged</code></td>
+<td>Shows the changes that have been staged.</td>
+</tr>
+<tr>
+<td><code>git diff</code></td>
+<td>Shows the changes that have not been staged.</td>
+</tr>
+<tr>
+<td><code>git commit -m "message"</code></td>
+<td>Commits staged changes with a message.</td>
+</tr>
+<tr>
+<td><code>git log</code></td>
+<td>Shows the commit history.</td>
+</tr>
+<tr>
+<td><code>git log --oneline</code></td>
+<td>Shows a summarized version of the commit history.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="remote-commands">Remote Commands</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git remote</code></td>
+<td>Lists the remotes for the current repository.</td>
+</tr>
+<tr>
+<td><code>git remote add &lt;name&gt; &lt;url&gt;</code></td>
+<td>Adds a new remote to the current repository.</td>
+</tr>
+<tr>
+<td><code>git pull &lt;remote&gt; &lt;branch&gt;</code></td>
+<td>Pulls changes from a remote repository.</td>
+</tr>
+<tr>
+<td><code>git push &lt;remote&gt; &lt;branch&gt;</code></td>
+<td>Pushes changes to a remote repository.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="branching-commands">Branching Commands</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git branch</code></td>
+<td>Lists all the branches in the repository.</td>
+</tr>
+<tr>
+<td><code>git branch &lt;branch-name&gt;</code></td>
+<td>Creates a new branch.</td>
+</tr>
+<tr>
+<td><code>git checkout &lt;branch-name&gt;</code></td>
+<td>Switches to a different branch.</td>
+</tr>
+<tr>
+<td><code>git checkout -b &lt;branch-name&gt;</code></td>
+<td>Creates and switches to a new branch.</td>
+</tr>
+<tr>
+<td><code>git merge &lt;branch-name&gt;</code></td>
+<td>Merges changes from one branch into another.</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1254,10 +1507,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/", "features": [], "search": "/assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.c8d2eff1.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.c8d2eff1.min.js"></script>
       
     
   </body>
