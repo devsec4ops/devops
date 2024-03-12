@@ -1,5 +1,9 @@
 site_name: DevOps Fundamentals
-theme: material
+theme:
+  name: material
+  palette:
+    scheme: "slate"
+
 nav:
   - Home: "index.md"
   - Introduction: 0-introduction/
@@ -9,7 +13,7 @@ nav:
   - Cloud Basics: 4-cloud-basics/
   - Continuous Integration & Deployment: 5-ci-cd/
   - Containerisation and Orchestration: 6-containerisation-orchestration/
-  - Infrastructure as a Code: 7-iaas
+  - Infrastructure as a Code: 7-iaas/
   - Monitoring: 8-monitoring/
 
 plugins:
