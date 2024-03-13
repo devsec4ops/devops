@@ -5,10 +5,15 @@ copyright: Copyright &copy; 2024 Mr Konsultant
 
 theme:
   name: material
+  favicon: assets/favicon.png
+  logo: assets/logo.png
   palette:
     scheme: slate
     primary: black
     accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
   features:
     - navigation.tabs
     - navigation.footer
