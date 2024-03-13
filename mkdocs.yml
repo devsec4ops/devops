@@ -20,7 +20,7 @@ theme:
     - content.code.copy
 
 nav:
-  - Home: index.md
+  - Contents: index.md
   - Introduction: 0-introduction/
   - OS & Networking: 1-os-networking/
   - Scripting: 2-scripting/
