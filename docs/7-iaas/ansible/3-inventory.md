@@ -11,6 +11,18 @@ There are two types of inventories in Ansible:
 
 The main difference is that static inventory is fixed until you change it, while dynamic inventory updates automatically based on the current state of your servers in the cloud or other environments.
 
+## **Why** to create an Inventory ?
+
+For instance, to verify the uptime of all your web servers grouped in your Ansible inventory, you can utilize the following ad-hoc command:
+<pre><code>
+ansible webservers -i hosts.ini -m command -a "uptime"
+</code></pre>   
+In this command:
+
+-   `webservers` is the group name specified in your `hosts.ini` inventory file, representing all your web server nodes.
+-   `uptime` is the command executed on each server within the `webservers` group to check how long the servers have been running.
+  
+
 ## **How** to create an Inventory ?
 
 **Static Inventory File**:
@@ -29,17 +41,16 @@ db1.example.com
 **Dynamic Inventory File**:
 Please refer projects folder for this example.
 
-## **Why** to create an Inventory ?
+## **Commands**
 
-For instance, to verify the uptime of all your web servers grouped in your Ansible inventory, you can utilize the following ad-hoc command:
-<pre><code>
-ansible webservers -i hosts.ini -m command -a "uptime"
-</code></pre>   
-In this command:
+1.  List Inventory: `ansible-inventory --list`
+2.  Graph Inventory: `ansible-inventory --graph`
+3.  Show Host Details: `ansible-inventory --host <hostname>`
+4.  Limit to Specific Groups/Hosts: `ansible-inventory --list --limit <group_or_host>`
+    -   Filters inventory to show specific groups or hosts.
+5.  Exclude Specific Groups/Hosts: `ansible-inventory --list --exclude <group_or_host>`
+    -   Shows inventory excluding specified groups or hosts.
 
--   `webservers` is the group name specified in your `hosts.ini` inventory file, representing all your web server nodes.
--   `uptime` is the command executed on each server within the `webservers` group to check how long the servers have been running.
-  
 
 ## **Assignments**
 Assignment 1: Create an Inventory File

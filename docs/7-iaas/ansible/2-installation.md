@@ -1,32 +1,28 @@
-#Installation
+#Initial Setup
 
-## macOS
+## Ansible Isntallation 
+### macOS
 
-1.  Using Homebrew
-    - Open a terminal.
-    - Install Homebrew by running `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
-    - Update Homebrew with `brew update`
-    - Install Ansible with `brew install ansible`
+-   Install Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
+-   Install Ansible: `brew update && brew install ansible`
 
-## Windows
+### Windows (WSL)
 
-1.  Using Windows Subsystem for Linux (WSL)
-    - Ensure WSL is enabled on your Windows system. You might need to install it through the Windows Features panel or with PowerShell.
-    - Install your preferred Linux distribution via the Microsoft Store (e.g., Ubuntu).
-    - Launch your Linux distribution from the Start Menu.
-    - Update the package manager with `sudo apt update` (for Debian/Ubuntu distributions).
-    - Install Ansible with `sudo apt install ansible` (for Debian/Ubuntu distributions).`
+-   Enable WSL, install a Linux distro from Microsoft Store (e.g., Ubuntu).
+-   Install Ansible: `sudo apt update && sudo apt install ansible`
 
-## Linux
-1.  Debian/Ubuntu
-    - Open a terminal.
-    - Update the package manager with `sudo apt update`
-    - Install Ansible with `sudo apt install ansible`
-2.  Red Hat/CentOS
-    `- Open a terminal.
-    - Install EPEL repository with `sudo yum install epel-release`
-    - Update the package manager with `sudo yum update`
-    - Install Ansible with `sudo yum install ansible`
-3.  Fedora
-    - Open a terminal.
-    - Install Ansible directly with `sudo dnf install ansible`
+### Linux
+
+-   Debian/Ubuntu: `sudo apt update && sudo apt install ansible`
+-   Red Hat/CentOS: `sudo yum install epel-release && sudo yum update && sudo yum install ansible`
+-   Fedora: `sudo dnf install ansible`
+
+## Install Boto3 and Botocore
+Boto3 is the Amazon Web Services (AWS) SDK for Python. It's required for Ansible modules to interact with AWS.
+`pip install boto3 botocore`
+## Set up AWS Credentials
+Create an IAM user in AWS with programmatic access.
+Run aws configure and enter your AWS Access Key ID, Secret Access Key, default region, and output format.
+## Create a Static Inventory File (e.g., hosts):
+Add [local] and localhost ansible_connection=local to run tasks on your local machine.
+

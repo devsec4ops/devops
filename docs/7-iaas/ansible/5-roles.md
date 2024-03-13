@@ -87,6 +87,26 @@ This setup quickly establishes a reusable, modular approach to deploying nginx a
 7.  Running a Playbook with Roles:
     -   `ansible-playbook playbook.yml`
 
+
+## **Assignments**
+
+### Assignment 1: Create a Basic Web Server Role
+-   Objective: Create an Ansible role named `web_server` that installs and configures Nginx or Apache on a Linux server.
+-   Tasks:
+    1.  Use the `ansible-galaxy` command to initialize a new role structure.
+    2.  Define tasks to install Nginx/Apache, ensure the service is enabled and started.
+    3.  Create a template for a simple homepage.
+    4.  Use the `copy` module to deploy this homepage to the server.
+    5.  Apply your role to a playbook and run it against a target server.
+    
+### Assignment 2: Develop a User Management Role
+-   Objective: Develop a role named `user_management` that manages user accounts on a Linux system.
+-   Tasks:
+    1.  Initialize the role using `ansible-galaxy`.
+    2.  Create tasks to add, remove, and manage user accounts (e.g., ensure a specific list of users exists with given properties).
+    3.  Use variables to make the role flexible for different user names and properties.
+    4.  Test the role by applying it to create, modify, and delete user accounts on a target machine.
+
 ## Interview Questions
 
 1.  **What is an Ansible role and how does it differ from a playbook?**
