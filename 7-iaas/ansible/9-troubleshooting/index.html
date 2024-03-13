@@ -18,7 +18,7 @@
     
     
       
-        <title>9 troubleshooting - DevOps Fundamentals</title>
+        <title>Troubleshooting - DevOps Fundamentals</title>
       
     
     
@@ -67,6 +67,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#troubleshooting" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -99,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              9 troubleshooting
+              Troubleshooting
             
           </span>
         </div>
@@ -1110,7 +1115,7 @@
         
   
   <span class="md-ellipsis">
-    0 index
+    Index
   </span>
   
 
@@ -1148,32 +1153,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../10-cheatsheet/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    10 cheatsheet
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../2-installation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Installation
+    Initial Setup
   </span>
   
 
@@ -1257,7 +1241,7 @@
         
   
   <span class="md-ellipsis">
-    6 modules
+    Modules
   </span>
   
 
@@ -1278,7 +1262,7 @@
         
   
   <span class="md-ellipsis">
-    7 vault
+    Vault
   </span>
   
 
@@ -1322,16 +1306,102 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    9 troubleshooting
+    Troubleshooting
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#scenario-1-playbook-fails-to-execute" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario 1: Playbook Fails to Execute
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scenario-2-variable-undefined-error" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario 2: Variable Undefined Error
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scenario-3-task-skipped-without-notice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario 3: **Task Skipped Without Notice
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scenario-4-slow-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario 4: Slow Performance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scenario-5-authentication-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario 5: Authentication Issues
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scenario-6-playbook-runs-on-incorrect-hosts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario 6: **Playbook Runs on Incorrect Hosts
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1390,6 +1460,70 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#scenario-1-playbook-fails-to-execute" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario 1: Playbook Fails to Execute
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scenario-2-variable-undefined-error" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario 2: Variable Undefined Error
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scenario-3-task-skipped-without-notice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario 3: **Task Skipped Without Notice
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scenario-4-slow-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario 4: Slow Performance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scenario-5-authentication-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario 5: Authentication Issues
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scenario-6-playbook-runs-on-incorrect-hosts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenario 6: **Playbook Runs on Incorrect Hosts
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1404,9 +1538,53 @@
                   
 
 
-  <h1>9 troubleshooting</h1>
-
-
+<h1 id="troubleshooting">Troubleshooting</h1>
+<h3 id="scenario-1-playbook-fails-to-execute">Scenario 1: <strong>Playbook Fails to Execute</strong></h3>
+<p>Q: What do you do if a playbook fails to execute on a remote host? A:</p>
+<ul>
+<li>Check Connectivity: Ensure the control node can SSH into the target host.</li>
+<li>Verify Permissions: Make sure the SSH user has appropriate permissions on the target host.</li>
+<li>Review Error Messages: Analyze the output for specific error messages, which can indicate what went wrong.</li>
+<li>Ansible Configuration: Check Ansible configurations and inventory files for accuracy.</li>
+</ul>
+<h3 id="scenario-2-variable-undefined-error">Scenario 2: <strong>Variable Undefined Error</strong></h3>
+<p>Q: How do you resolve an "undefined variable" error in a playbook? A:</p>
+<ul>
+<li>Define Variables: Ensure all variables used are defined in the playbook, included files, or inventory.</li>
+<li>Typo Check: Verify there are no typos in variable names.</li>
+<li>Debug Module: Use the Ansible <code>debug</code> module to print variables at runtime and understand their state.</li>
+</ul>
+<h3 id="scenario-3-task-skipped-without-notice">Scenario 3: **Task Skipped Without Notice</h3>
+<p>**
+Q: Why would a task be skipped without any clear reason? A:</p>
+<ul>
+<li>Conditional Checks: Check if the task has a conditional (<code>when</code>) that is not being met.</li>
+<li>Tags: Ensure the task isn't being excluded by the use of tags during execution.</li>
+<li>Dependencies: Look for any failed dependencies or <code>include</code> statements that did not execute.</li>
+</ul>
+<h3 id="scenario-4-slow-performance">Scenario 4: <strong>Slow Performance</strong></h3>
+<p>Q: What steps can you take if Ansible is running slow? A:</p>
+<ul>
+<li>Parallelism: Increase the number of parallel forks in the Ansible configuration (<code>forks</code> setting).</li>
+<li>Fact Gathering: Disable or limit fact gathering if not needed (<code>gather_facts: no</code> or use <code>setup</code> module selectively).</li>
+<li>Connection Method: Switch connection methods (e.g., from SSH to paramiko) to see if performance improves.</li>
+</ul>
+<h3 id="scenario-5-authentication-issues">Scenario 5: <strong>Authentication Issues</strong></h3>
+<p>Q: How do you fix SSH authentication issues when running a playbook? A:</p>
+<ul>
+<li>SSH Keys: Ensure the control node's SSH key is authorized on the target host.</li>
+<li>Password Authentication: If using password authentication, verify the password is correct or use <code>ask_pass</code> to prompt for a password.</li>
+<li>SSH Agent: If using an SSH agent, make sure it's running and loaded with the correct keys.</li>
+</ul>
+<h3 id="scenario-6-playbook-runs-on-incorrect-hosts">Scenario 6: **Playbook Runs on Incorrect Hosts</h3>
+<p>**
+Q: What to do if a playbook is running on the wrong set of hosts? A:</p>
+<ul>
+<li>Inventory Check: Verify the inventory file to ensure host groupings are correct.</li>
+<li>Host Pattern: Review the playbook's host pattern to ensure it targets the intended group or host.</li>
+<li>Limit Option: Use the <code>--limit</code> option to restrict playbook runs to specific hosts if necessary.</li>
+</ul>
+<p>By understanding and applying these troubleshooting steps, you can resolve common issues encountered while working with Ansible, ensuring a smoother automation experience.</p>
 
 
 

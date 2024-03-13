@@ -20,7 +20,7 @@
     
     
       
-        <title>7 vault - DevOps Fundamentals</title>
+        <title>Vault - DevOps Fundamentals</title>
       
     
     
@@ -69,6 +69,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#vault" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -101,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              7 vault
+              Vault
             
           </span>
         </div>
@@ -1112,7 +1117,7 @@
         
   
   <span class="md-ellipsis">
-    0 index
+    Index
   </span>
   
 
@@ -1150,32 +1155,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../10-cheatsheet/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    10 cheatsheet
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../2-installation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Installation
+    Initial Setup
   </span>
   
 
@@ -1259,7 +1243,7 @@
         
   
   <span class="md-ellipsis">
-    6 modules
+    Modules
   </span>
   
 
@@ -1282,16 +1266,93 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Vault
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    7 vault
+    Vault
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-vault" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is Vault ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-vault" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Vault ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use-vault" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to use Vault ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assignments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignments
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interview-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interview Questions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1330,7 +1391,7 @@
         
   
   <span class="md-ellipsis">
-    9 troubleshooting
+    Troubleshooting
   </span>
   
 
@@ -1392,6 +1453,61 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-vault" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is Vault ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-vault" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Vault ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use-vault" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to use Vault ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assignments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignments
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interview-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interview Questions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1406,9 +1522,80 @@
                   
 
 
-  <h1>7 vault</h1>
-
-
+<h1 id="vault">Vault</h1>
+<h2 id="what-is-vault"><strong>What</strong> is Vault ?</h2>
+<p>Ansible Vault is a feature within Ansible that allows you to encrypt sensitive information, ensuring it can only be accessed by authorized individuals with the decryption key. It helps keep passwords, private keys, and other confidential data secure in your automation tasks.</p>
+<h2 id="why-vault"><strong>Why</strong> Vault ?</h2>
+<p>Using Vault, such as Ansible Vault, is crucial because it protects sensitive information from unauthorized access and potential security breaches. By encrypting data like passwords and keys, it ensures that even if someone gains access to your files, they cannot understand or misuse the sensitive data without the encryption key. This is particularly important in automation and DevOps practices, where scripts and code that manage infrastructure often need to use sensitive information but must do so securely to prevent data leaks or security vulnerabilities.</p>
+<h2 id="how-to-use-vault"><strong>How</strong> to use Vault ?</h2>
+<p>To set up and use Ansible Vault for encrypting sensitive data, follow these concise steps:</p>
+<ol>
+<li>
+<p>Vault is part of ansible , So no need of additional installation.</p>
+</li>
+<li>
+<p><strong>Create a New Encrypted File</strong>:</p>
+<ul>
+<li>Use <code>ansible-vault create secret.yml</code> to create and encrypt a new file. You'll be prompted to set a password.</li>
+</ul>
+</li>
+<li>
+<p><strong>Edit Encrypted Files</strong>:</p>
+<ul>
+<li>To edit, use <code>ansible-vault edit secret.yml</code>, entering the vault password when prompted.</li>
+</ul>
+</li>
+<li>
+<p><strong>View Encrypted Files</strong>:</p>
+<ul>
+<li>Use <code>ansible-vault view secret.yml</code> to view an encrypted file, again entering the password.</li>
+</ul>
+</li>
+<li>
+<p><strong>Running Playbooks with Encrypted Content</strong>:</p>
+<p>Use <code>ansible-playbook --ask-vault-pass myplaybook.yml</code> to run a playbook that requires a vault password, </p>
+<p>or <code>ansible-playbook --vault-password-file /path/to/passwordfile myplaybook.yml</code> if you're using a password file.</p>
+</li>
+</ol>
+<h2 id="assignments"><strong>Assignments</strong></h2>
+<ol>
+<li>
+<p><strong>Create and Encrypt a File</strong>: Write a playbook that contains sensitive information. Use Ansible Vault to encrypt this playbook. Ensure the playbook still functions as expected when run with the <code>ansible-playbook</code> command and the <code>--ask-vault-pass</code> flag.</p>
+</li>
+<li>
+<p><strong>Change Vault Password</strong>: Encrypt a file using Ansible Vault. Then, change the password of the vault-encrypted file. Verify that you can access the file with the new password but not with the old one.</p>
+</li>
+<li>
+<p><strong>Use Encrypted Variables</strong>: Create a role that uses variables for sensitive data like database passwords. Encrypt these variables with Ansible Vault and write a playbook that uses this role, demonstrating that the role functions correctly with the encrypted variables.</p>
+</li>
+</ol>
+<h2 id="interview-questions"><strong>Interview Questions</strong></h2>
+<ol>
+<li>
+<p><strong>What is Ansible Vault and why is it used?</strong></p>
+<ul>
+<li>Ansible Vault is a feature of Ansible that allows users to encrypt sensitive information, making it secure and accessible only to individuals with the password. It's used to keep sensitive data such as passwords and keys secure within Ansible playbooks and roles.</li>
+</ul>
+</li>
+<li>
+<p><strong>How do you run a playbook that contains vault-encrypted files?</strong></p>
+<ul>
+<li>To run a playbook containing vault-encrypted files, you use the <code>ansible-playbook</code> command with the <code>--ask-vault-pass</code> flag, which prompts for the vault password, or the <code>--vault-password-file</code> flag, where the password is stored in a file.</li>
+</ul>
+</li>
+<li>
+<p><strong>Can you explain the process of editing an encrypted file with Ansible Vault?</strong></p>
+<ul>
+<li>To edit an encrypted file, you use the <code>ansible-vault edit</code> command followed by the file name. This command prompts for the vault password, decrypts the file temporarily, opens it in the default text editor, and re-encrypts it with the same password upon saving and closing the editor.</li>
+</ul>
+</li>
+<li>
+<p><strong>What is the difference between encrypting an entire file with Ansible Vault and encrypting only certain variables within a file?</strong></p>
+<ul>
+<li>Encrypting an entire file with Ansible Vault makes the whole content of the file unreadable without the vault password. Encrypting only certain variables (using <code>ansible-vault encrypt_string</code>) within a file keeps the overall structure and other variables in plaintext, but secures specific sensitive data. This approach allows for a fine-grained encryption strategy, securing sensitive data while keeping the playbook or roles partially readable for easier maintenance and understanding.</li>
+</ul>
+</li>
+</ol>
 
 
 

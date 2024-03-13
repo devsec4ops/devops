@@ -1117,7 +1117,7 @@
         
   
   <span class="md-ellipsis">
-    0 index
+    Index
   </span>
   
 
@@ -1155,32 +1155,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../10-cheatsheet/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    10 cheatsheet
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../2-installation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Installation
+    Initial Setup
   </span>
   
 
@@ -1264,7 +1243,7 @@
         
   
   <span class="md-ellipsis">
-    6 modules
+    Modules
   </span>
   
 
@@ -1285,7 +1264,7 @@
         
   
   <span class="md-ellipsis">
-    7 vault
+    Vault
   </span>
   
 
@@ -1376,7 +1355,7 @@
         
   
   <span class="md-ellipsis">
-    9 troubleshooting
+    Troubleshooting
   </span>
   
 
@@ -1472,6 +1451,41 @@
 
 
 <h1 id="best-practices">Best Practices</h1>
+<ol>
+<li>
+<p>Project Structure: Use a clear directory layout separating roles, playbooks, and variables for better organization. (Consider <code>ansible-galaxy init</code> for a template)</p>
+</li>
+<li>
+<p>Version Control: Keep your Ansible projects in version control systems like Git. (Branch per environment strategy)</p>
+</li>
+<li>
+<p>Dynamic Inventory: Use dynamic inventories for managing hosts in changing environments, especially with cloud resources. (Explore Ansible plugins for AWS, Azure, GCP)</p>
+</li>
+<li>
+<p>Secure Variables: Encrypt sensitive data with Ansible Vault. (Use <code>ansible-vault</code> for passwords and keys)</p>
+</li>
+<li>
+<p>Idempotence: Design tasks to be safely repeatable without unintended side-effects. (Test task outcomes before making changes)</p>
+</li>
+<li>
+<p>Error Handling: Use Ansible's error handling features to manage failures gracefully. (<code>failed_when</code>, <code>ignore_errors</code>)</p>
+</li>
+<li>
+<p>Code Clarity: Maintain readability with meaningful names and comments. (Use descriptive names for tasks and variables)</p>
+</li>
+<li>
+<p>Efficiency: Prefer Ansible modules over direct shell commands for cross-platform compatibility and efficiency. (Use <code>command</code> or <code>shell</code> modules only when necessary)</p>
+</li>
+<li>
+<p>Privilege Escalation: Run Ansible with the least privilege and use <code>become</code> for necessary tasks. (Audit use of <code>become</code>)</p>
+</li>
+<li>
+<p>CI/CD Integration: Integrate Ansible playbooks into CI/CD for automated testing and deployment. (Set up automated testing pipelines)</p>
+</li>
+<li>
+<p>Monitoring and Logging: Keep logs of Ansible runs and monitor the system's state post-configuration. (Enable Ansible logging, integrate with monitoring tools)</p>
+</li>
+</ol>
 <h2 id="project-structure">Project Structure</h2>
 <pre><code>
 ansible-project/

@@ -1117,7 +1117,7 @@
         
   
   <span class="md-ellipsis">
-    0 index
+    Index
   </span>
   
 
@@ -1155,32 +1155,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../10-cheatsheet/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    10 cheatsheet
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../2-installation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Installation
+    Initial Setup
   </span>
   
 
@@ -1252,6 +1231,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#why-to-create-an-inventory" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why to create an Inventory ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#how-to-create-an-inventory" class="md-nav__link">
     <span class="md-ellipsis">
       How to create an Inventory ?
@@ -1261,9 +1249,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#why-to-create-an-inventory" class="md-nav__link">
+  <a href="#commands" class="md-nav__link">
     <span class="md-ellipsis">
-      Why to create an Inventory ?
+      Commands
     </span>
   </a>
   
@@ -1349,7 +1337,7 @@
         
   
   <span class="md-ellipsis">
-    6 modules
+    Modules
   </span>
   
 
@@ -1370,7 +1358,7 @@
         
   
   <span class="md-ellipsis">
-    7 vault
+    Vault
   </span>
   
 
@@ -1412,7 +1400,7 @@
         
   
   <span class="md-ellipsis">
-    9 troubleshooting
+    Troubleshooting
   </span>
   
 
@@ -1493,6 +1481,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#why-to-create-an-inventory" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why to create an Inventory ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#how-to-create-an-inventory" class="md-nav__link">
     <span class="md-ellipsis">
       How to create an Inventory ?
@@ -1502,9 +1499,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#why-to-create-an-inventory" class="md-nav__link">
+  <a href="#commands" class="md-nav__link">
     <span class="md-ellipsis">
-      Why to create an Inventory ?
+      Commands
     </span>
   </a>
   
@@ -1552,6 +1549,16 @@
 <li>Dynamic Inventory: Automatically updates and fetches server lists from external sources like cloud providers.</li>
 </ol>
 <p>The main difference is that static inventory is fixed until you change it, while dynamic inventory updates automatically based on the current state of your servers in the cloud or other environments.</p>
+<h2 id="why-to-create-an-inventory"><strong>Why</strong> to create an Inventory ?</h2>
+<p>For instance, to verify the uptime of all your web servers grouped in your Ansible inventory, you can utilize the following ad-hoc command:</p>
+<pre><code>
+ansible webservers -i hosts.ini -m command -a "uptime"
+</code></pre>
+<p>In this command:</p>
+<ul>
+<li><code>webservers</code> is the group name specified in your <code>hosts.ini</code> inventory file, representing all your web server nodes.</li>
+<li><code>uptime</code> is the command executed on each server within the <code>webservers</code> group to check how long the servers have been running.</li>
+</ul>
 <h2 id="how-to-create-an-inventory"><strong>How</strong> to create an Inventory ?</h2>
 <p><strong>Static Inventory File</strong>:</p>
 <p>Create an inventory file named <code>hosts.ini</code>:</p>
@@ -1566,16 +1573,20 @@ db1.example.com
 
 <p><strong>Dynamic Inventory File</strong>:
 Please refer projects folder for this example.</p>
-<h2 id="why-to-create-an-inventory"><strong>Why</strong> to create an Inventory ?</h2>
-<p>For instance, to verify the uptime of all your web servers grouped in your Ansible inventory, you can utilize the following ad-hoc command:</p>
-<pre><code>
-ansible webservers -i hosts.ini -m command -a "uptime"
-</code></pre>
-<p>In this command:</p>
-<ul>
-<li><code>webservers</code> is the group name specified in your <code>hosts.ini</code> inventory file, representing all your web server nodes.</li>
-<li><code>uptime</code> is the command executed on each server within the <code>webservers</code> group to check how long the servers have been running.</li>
+<h2 id="commands"><strong>Commands</strong></h2>
+<ol>
+<li>List Inventory: <code>ansible-inventory --list</code></li>
+<li>Graph Inventory: <code>ansible-inventory --graph</code></li>
+<li>Show Host Details: <code>ansible-inventory --host &lt;hostname&gt;</code></li>
+<li>Limit to Specific Groups/Hosts: <code>ansible-inventory --list --limit &lt;group_or_host&gt;</code><ul>
+<li>Filters inventory to show specific groups or hosts.</li>
 </ul>
+</li>
+<li>Exclude Specific Groups/Hosts: <code>ansible-inventory --list --exclude &lt;group_or_host&gt;</code><ul>
+<li>Shows inventory excluding specified groups or hosts.</li>
+</ul>
+</li>
+</ol>
 <h2 id="assignments"><strong>Assignments</strong></h2>
 <p>Assignment 1: Create an Inventory File</p>
 <ul>

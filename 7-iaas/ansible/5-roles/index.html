@@ -1117,7 +1117,7 @@
         
   
   <span class="md-ellipsis">
-    0 index
+    Index
   </span>
   
 
@@ -1155,32 +1155,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../10-cheatsheet/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    10 cheatsheet
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../2-installation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Installation
+    Initial Setup
   </span>
   
 
@@ -1354,6 +1333,39 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#assignments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignments
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Assignments">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#assignment-1-create-a-basic-web-server-role" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignment 1: Create a Basic Web Server Role
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assignment-2-develop-a-user-management-role" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignment 2: Develop a User Management Role
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#interview-questions" class="md-nav__link">
     <span class="md-ellipsis">
       Interview Questions
@@ -1382,7 +1394,7 @@
         
   
   <span class="md-ellipsis">
-    6 modules
+    Modules
   </span>
   
 
@@ -1403,7 +1415,7 @@
         
   
   <span class="md-ellipsis">
-    7 vault
+    Vault
   </span>
   
 
@@ -1445,7 +1457,7 @@
         
   
   <span class="md-ellipsis">
-    9 troubleshooting
+    Troubleshooting
   </span>
   
 
@@ -1586,6 +1598,39 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#assignments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignments
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Assignments">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#assignment-1-create-a-basic-web-server-role" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignment 1: Create a Basic Web Server Role
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assignment-2-develop-a-user-management-role" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignment 2: Develop a User Management Role
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#interview-questions" class="md-nav__link">
     <span class="md-ellipsis">
       Interview Questions
@@ -1706,6 +1751,30 @@ vars:
 </ul>
 </li>
 </ol>
+<h2 id="assignments"><strong>Assignments</strong></h2>
+<h3 id="assignment-1-create-a-basic-web-server-role">Assignment 1: Create a Basic Web Server Role</h3>
+<ul>
+<li>Objective: Create an Ansible role named <code>web_server</code> that installs and configures Nginx or Apache on a Linux server.</li>
+<li>Tasks:<ol>
+<li>Use the <code>ansible-galaxy</code> command to initialize a new role structure.</li>
+<li>Define tasks to install Nginx/Apache, ensure the service is enabled and started.</li>
+<li>Create a template for a simple homepage.</li>
+<li>Use the <code>copy</code> module to deploy this homepage to the server.</li>
+<li>Apply your role to a playbook and run it against a target server.</li>
+</ol>
+</li>
+</ul>
+<h3 id="assignment-2-develop-a-user-management-role">Assignment 2: Develop a User Management Role</h3>
+<ul>
+<li>Objective: Develop a role named <code>user_management</code> that manages user accounts on a Linux system.</li>
+<li>Tasks:<ol>
+<li>Initialize the role using <code>ansible-galaxy</code>.</li>
+<li>Create tasks to add, remove, and manage user accounts (e.g., ensure a specific list of users exists with given properties).</li>
+<li>Use variables to make the role flexible for different user names and properties.</li>
+<li>Test the role by applying it to create, modify, and delete user accounts on a target machine.</li>
+</ol>
+</li>
+</ul>
 <h2 id="interview-questions">Interview Questions</h2>
 <ol>
 <li>
