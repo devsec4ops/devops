@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../0-index/">
+        <link rel="prev" href="../8-best-practices/">
       
-      
-        <link rel="next" href="../10-cheatsheet/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>Introduction - DevOps Fundamentals</title>
+        <title>9 troubleshooting - DevOps Fundamentals</title>
       
     
     
@@ -69,11 +67,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#introduction" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -106,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction
+              9 troubleshooting
             
           </span>
         </div>
@@ -1131,30 +1124,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Introduction
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../1-introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1163,62 +1136,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-ansible" class="md-nav__link">
-    <span class="md-ellipsis">
-      What is Ansible?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#why-use-ansible" class="md-nav__link">
-    <span class="md-ellipsis">
-      Why Use Ansible?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ansible-architecture" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ansible Architecture:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#documentation-for-full-clarity" class="md-nav__link">
-    <span class="md-ellipsis">
-      Documentation for Full Clarity:
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1396,10 +1313,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../9-troubleshooting/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1408,6 +1332,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -1465,52 +1390,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-ansible" class="md-nav__link">
-    <span class="md-ellipsis">
-      What is Ansible?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#why-use-ansible" class="md-nav__link">
-    <span class="md-ellipsis">
-      Why Use Ansible?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ansible-architecture" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ansible Architecture:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#documentation-for-full-clarity" class="md-nav__link">
-    <span class="md-ellipsis">
-      Documentation for Full Clarity:
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -1525,31 +1404,9 @@
                   
 
 
-<h1 id="introduction">Introduction</h1>
-<h2 id="what-is-ansible"><strong>What</strong> is Ansible?</h2>
-<p>Open-source automation tool for IT tasks: configuration management, application deployment, and orchestration.
-Simplifies complex tasks and streamlines IT operations.</p>
-<h2 id="why-use-ansible"><strong>Why</strong> Use Ansible?</h2>
-<ul>
-<li><strong>Simplicity</strong>: Uses YAML for playbook definitions, making it readable and easy to learn.</li>
-<li><strong>Agentless</strong>: Operates over SSH or PowerShell, no agents to install on target systems.</li>
-<li><strong>Flexibility</strong>: Manages both Unix-like and Windows systems.</li>
-<li><strong>Idempotency</strong>: Ensures repeatable deployments and configurations without side effects.</li>
-</ul>
-<h2 id="ansible-architecture">Ansible <strong>Architecture</strong>:</h2>
-<ul>
-<li><strong>Control Node</strong> : The machine where Ansible is installed and runs playbooks.</li>
-<li><strong>Managed Nodes</strong> : Targets of Ansible automation (servers, devices).</li>
-<li><strong>Inventory:</strong> : Defines groups of managed nodes.</li>
-<li><strong>Modules:</strong> Units of code Ansible executes. Playbooks call modules.</li>
-<li><strong>Playbooks:</strong> YAML files that define automation jobs. Dictate how to perform tasks.</li>
-<li><strong>Roles:</strong> Organize playbooks for reusable content.</li>
-<li><strong>Tasks:</strong> Individual actions performed by playbooks.</li>
-<li><strong>Facts:</strong> Information retrieved from managed nodes for use in playbooks.</li>
-<li><strong>Handlers:</strong> Special tasks executed at the end of playbooks if notified by another task.</li>
-</ul>
-<h2 id="documentation-for-full-clarity">Documentation for Full Clarity:</h2>
-<p>For comprehensive details, refer to the official <a href="https://docs.ansible.com/ansible/latest/getting_started/introduction.html">Ansible Documentation</a></p>
+  <h1>9 troubleshooting</h1>
+
+
 
 
 
