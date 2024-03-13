@@ -4,87 +4,77 @@ In this course, you will learn the fundamentals of DevOps. You will learn how to
 
 Below are the topics that will be covered in this course:
 
-## Introduction
+???+ abstract "Introduction"
 
-* SDLC Basics
-* What is DevOps?
-* Why DevOps?
+    - [x] **SDLC Basics**
+    - [x] **What is DevOps?**
+    - [x] **Why DevOps?**
 
-## OS & Networking
+???+ abstract "OS & Networking"
 
-* OS (Linux)
-* Networking
-* Bash
+    - [x] **OS (Linux)**
+    - [x] **Networking**
+    - [x] **Bash**
 
-## Scripting
+???+ abstract "Scripting"
 
-* Python
+    - [x] **Python**
 
-## Version Control
+???+ abstract "Version Control"
 
-* GIT
-* Github
+    - [x] **GIT**
+    - [x] **Github**
 
-## Cloud Basics
+???+ abstract "Cloud"
 
-* AWS Well-Architected Framework
+    - [x] **AWS Well-Architected Framework**
+    - [x] **Identity & Access Management**
+        - [x] **AWS IAM**
+    - [x] **Data Storage**
+        - [x] **AWS S3**
+        - [x] **AWS RDS**
+        - [x] **AWS Dynamo DB**
+    - [x] **Networking**
+        - [x] **AWS VPC**
+        - [x] **AWS Direct Connect**
+        - [x] **AWS CloudFront**
+        - [x] **AWS Route 53**
+        - [x] **AWS ELB**
+    - [x] **Compute**
+        - [x] **AWS EC2**
+        - [x] **AWS Lambda** 
 
-* Identity & Access Management
+???+ abstract "Continuous Integration & Deployment"
 
-    * AWS IAM
+    - [x] **Github Workflow**
+    - [x] **Github Actions**
+    - [x] **CI CD Pipeline**
+    - [x] **Git Best Practices**
+    - [x] **Pipeline Security**
 
-* Data Storage
+???+ abstract "Containerisation and Orchestration"
 
-    * AWS S3
-    * AWS RDS
-    * AWS Dynamo DB
+    - [x] **Docker**
+        - [x] **Architecture**
+        - [x] **Networking**
+        - [x] **Storage**
+        - [x] **Security**
+        - [x] **CI/CD Integration**
+   
+    - [x] **Kubernetes**
+        - [x] **Architecture**
+        - [x] **Networking**
+        - [x] **Storage**
+        - [x] **Security**
+        - [x] **CI/CD Integration**
 
-* Networking
+???+ abstract "Infrastructure as a Code"
 
-    * AWS VPC
-    * AWS Direct Connect
-    * AWS CloudFront
-    * AWS Route 53
-    * AWS ELB
+    - [x] **Terraform**
+    - [x] **Ansible**
 
-* Compute
-
-    * AWS EC2
-    * AWS Lambda
-
-## Continuous Integration & Deployment
-
-* Github Workflow
-* Github Actions
-* CI CD Pipeline
-* Git Best Practices
-* Pipeline Security
-
-## Containerisation and Orchestration
-
-### Docker
-
-* Architecture
-* Networking
-* Storage
-* Security
-* CI/CD Integration
-
-### Kubernetes
-
-* Architecture
-* Networking
-* Storage
-* Security
-* Ci/CD Integration
-
-## Infrastructure as a Code
-
-* Terraform
-* Ansible
-
-## Monitoring
-
-* CloudWatch (Primary)
-* Prometheus
-* Grafana
+???+ abstract "Monitoring"
+    
+      - [x] **CloudWatch (Primary)**
+      - [x] **Prometheus**
+      - [x] **Grafana**

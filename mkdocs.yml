@@ -1,21 +1,48 @@
 site_name: DevOps Fundamentals
+
+# Copyright
+copyright: Copyright &copy; 2024 Mr Konsultant
+
 theme:
   name: material
   palette:
-    scheme: "slate"
+    scheme: slate
+    primary: black
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.footer
+    - content.code.copy
 
 nav:
-  - Home: "index.md"
+  - Home: index.md
   - Introduction: 0-introduction/
   - OS & Networking: 1-os-networking/
   - Scripting: 2-scripting/
   - Version Control: 3-version-control/
-  - Cloud Basics: 4-cloud-basics/
-  - Continuous Integration & Deployment: 5-ci-cd/
-  - Containerisation and Orchestration: 6-containerisation-orchestration/
-  - Infrastructure as a Code: 7-iaas/
+  - Cloud: 4-cloud-basics/
+  - CI/CD: 5-ci-cd/
+  - Containerisation & Orchestration: 6-containerisation-orchestration/
+  - IaaS: 7-iaas/
   - Monitoring: 8-monitoring/
 
 plugins:
   - search
   - literate-nav
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji
+  - admonition
+
+extra:
+  generator: false
