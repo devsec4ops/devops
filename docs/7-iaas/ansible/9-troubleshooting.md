@@ -17,7 +17,7 @@ Q: How do you resolve an "undefined variable" error in a playbook? A:
 -   Typo Check: Verify there are no typos in variable names.
 -   Debug Module: Use the Ansible `debug` module to print variables at runtime and understand their state.
 
-### Scenario 3: **Task Skipped Without Notice
+### Scenario 3: **Task Skipped Without Notice**
 **
 Q: Why would a task be skipped without any clear reason? A:
 
@@ -41,7 +41,7 @@ Q: How do you fix SSH authentication issues when running a playbook? A:
 -   Password Authentication: If using password authentication, verify the password is correct or use `ask_pass` to prompt for a password.
 -   SSH Agent: If using an SSH agent, make sure it's running and loaded with the correct keys.
 
-### Scenario 6: **Playbook Runs on Incorrect Hosts
+### Scenario 6: **Playbook Runs on Incorrect Hosts**
 **
 Q: What to do if a playbook is running on the wrong set of hosts? A:
 
