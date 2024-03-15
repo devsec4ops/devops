@@ -9,6 +9,10 @@
       
       
       
+        <link rel="prev" href="../3-net-protocols/">
+      
+      
+        <link rel="next" href="../5-net-subnetting/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -16,7 +20,7 @@
     
     
       
-        <title>DHCP - DevOps Fundamentals</title>
+        <title>Ports and IP Address - DevOps Fundamentals</title>
       
     
     
@@ -66,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#dhcp" class="md-skip">
+        <a href="#ports-and-ip-address" class="md-skip">
           Skip to content
         </a>
       
@@ -99,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              DHCP
+              Ports and IP Address
             
           </span>
         </div>
@@ -201,17 +205,20 @@
         
   
   
-  
-    <li class="md-tabs__item">
-      <a href="../../1-os-networking" class="md-tabs__link">
-        
-  
     
   
-  OS & Networking
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../0-net-index/" class="md-tabs__link">
+          
+  
+  Networking
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -309,16 +316,17 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="../../6-containerisation-orchestration" class="md-tabs__link">
-        
-  
     
+    
+      <li class="md-tabs__item">
+        <a href="../../6-containerization/1-introduction/" class="md-tabs__link">
+          
   
-  Containerisation & Orchestration
+  Containerisation
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -353,16 +361,35 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="../../8-monitoring" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../8-observability/1-introduction/" class="md-tabs__link">
+          
   
+  Observability
+
+        </a>
+      </li>
     
   
-  Monitoring
 
-      </a>
-    </li>
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../9-linux/0-index/" class="md-tabs__link">
+          
+  
+  Linux
+
+        </a>
+      </li>
+    
   
 
       
@@ -488,18 +515,376 @@
       
   
   
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Networking
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Networking
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
   
   
     <li class="md-nav__item">
-      <a href="../../1-os-networking" class="md-nav__link">
+      <a href="../0-net-index/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    OS & Networking
+    Index
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1-net-introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10-net-nat/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NAT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2-net-osi-layer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OSI Layer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3-net-protocols/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Network Protocols (Set of Rules)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Ports and IP Address
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Ports and IP Address
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what" class="md-nav__link">
+    <span class="md-ellipsis">
+      What?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how" class="md-nav__link">
+    <span class="md-ellipsis">
+      How?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ports" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ports:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ip-address" class="md-nav__link">
+    <span class="md-ellipsis">
+      IP Address:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#real-world-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Real World Example
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assignments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignments
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interview-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interview Questions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5-net-subnetting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Subnet vs Supernet (CIDR)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7-net-dns/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DNS (Domain Name System)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../8-net-topologies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Network Topolgies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9-net-dhcp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DHCP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1206,16 +1591,62 @@
   
   
   
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Containerisation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Containerisation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../../6-containerisation-orchestration" class="md-nav__link">
+      <a href="../../6-containerization/1-introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Containerisation & Orchestration
+    Introcution
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1527,16 +1958,149 @@
   
   
   
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Observability
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Observability
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../../8-monitoring" class="md-nav__link">
+      <a href="../../8-observability/1-introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Monitoring
+    Introcution
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Linux
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            Linux
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9-linux/0-index/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../9-linux/1-introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1592,12 +2156,54 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="How?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ports" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ports:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ip-address" class="md-nav__link">
+    <span class="md-ellipsis">
+      IP Address:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#real-world-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Real World Example
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assignments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignments
+    </span>
+  </a>
+  
 </li>
       
         <li class="md-nav__item">
   <a href="#interview-questions" class="md-nav__link">
     <span class="md-ellipsis">
-      Interview Questions:
+      Interview Questions
     </span>
   </a>
   
@@ -1618,33 +2224,179 @@
                   
 
 
-<h1 id="dhcp">DHCP</h1>
-<h2 id="what"><strong>What?</strong></h2>
+<h1 id="ports-and-ip-address"><strong>Ports and IP Address</strong></h1>
+<h3 id="what"><strong>What?</strong></h3>
 <ul>
-<li>DHCP is like a waiter in a restaurant who assigns tables (IP addresses) to customers (devices) as they come in, ensuring everyone gets seated and served without having to wait too long.</li>
+<li><strong>Ports</strong>: Ports are like different doors in a big building. Each door leads to a different room where different services or activities happen.</li>
+<li><strong>IP Address</strong>: An IP address is like a home address for your computer or device on the internet. It helps data find its way to the right place, just like a home address helps mail reach the right house.</li>
 </ul>
-<h2 id="why"><strong>Why?</strong></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>IP Address + PORT number = Socket Address
+</span></code></pre></div>
+<h3 id="why"><strong>Why?</strong></h3>
 <ul>
-<li>Simplifies network administration by automating IP address allocation.</li>
-<li>Eliminates the need for manual IP configuration, reducing human errors.</li>
-<li>Supports dynamic IP address assignment, optimizing IP address usage.</li>
-<li>Facilitates easy addition and removal of devices from the network.</li>
+<li><strong>Ports</strong>: They allow multiple services to operate on the same device without getting mixed up.</li>
+<li><strong>IP Address</strong>: It ensures that data reaches the correct device on the internet.</li>
 </ul>
-<h2 id="how"><strong>How?</strong></h2>
+<h3 id="how"><strong>How?</strong></h3>
+<h4 id="ports"><strong>Ports</strong>:</h4>
+<p>Each service or program running on a device listens to a specific port number for incoming data. When data arrives at the device, it's directed to the appropriate port, just like a letter is directed to the right room through a specific door.</p>
+<table>
+<thead>
+<tr>
+<th>Port Number</th>
+<th>Service</th>
+<th>Protocol</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>21</td>
+<td>FTP</td>
+<td>TCP</td>
+<td>File Transfer Protocol (FTP)</td>
+</tr>
+<tr>
+<td>22</td>
+<td>SSH</td>
+<td>TCP</td>
+<td>Secure Shell (SSH) for secure remote access</td>
+</tr>
+<tr>
+<td>23</td>
+<td>Telnet</td>
+<td>TCP</td>
+<td>Telnet protocol for remote login</td>
+</tr>
+<tr>
+<td>25</td>
+<td>SMTP</td>
+<td>TCP</td>
+<td>Simple Mail Transfer Protocol (SMTP) for email transfer</td>
+</tr>
+<tr>
+<td>53</td>
+<td>DNS</td>
+<td>TCP/UDP</td>
+<td>Domain Name System (DNS) for translating domain names</td>
+</tr>
+<tr>
+<td>80</td>
+<td>HTTP</td>
+<td>TCP</td>
+<td>Hypertext Transfer Protocol (HTTP) for web browsing</td>
+</tr>
+<tr>
+<td>110</td>
+<td>POP3</td>
+<td>TCP</td>
+<td>Post Office Protocol version 3 (POP3) for email access</td>
+</tr>
+<tr>
+<td>143</td>
+<td>IMAP</td>
+<td>TCP</td>
+<td>Internet Message Access Protocol (IMAP) for email access</td>
+</tr>
+<tr>
+<td>443</td>
+<td>HTTPS</td>
+<td>TCP</td>
+<td>HTTP Secure (HTTPS) for secure web browsing</td>
+</tr>
+<tr>
+<td>3306</td>
+<td>MySQL</td>
+<td>TCP</td>
+<td>MySQL Database server</td>
+</tr>
+<tr>
+<td>3389</td>
+<td>RDP</td>
+<td>TCP</td>
+<td>Remote Desktop Protocol (RDP) for remote access</td>
+</tr>
+</tbody>
+</table>
+<h4 id="ip-address"><strong>IP Address</strong>:</h4>
 <ul>
-<li>When a device connects to the network, it sends a DHCP discover message.</li>
-<li>A DHCP server responds with an offer, providing an available IP address.</li>
-<li>The device sends a request for the offered IP address.</li>
-<li>The DHCP server acknowledges the request and assigns the IP address to the device.</li>
-<li>The device configures its network settings using the assigned IP address, subnet mask, default gateway, and DNS servers.</li>
+<li>Devices are assigned unique IP addresses, similar to how houses have unique addresses. When data is sent over the internet, it's labeled with the destination IP address so that routers know where to send it.</li>
+<li>
+<p>IP has mainly two versions </p>
+<ul>
+<li>IPv4:<ul>
+<li>Major Use: Legacy protocol.</li>
+<li>Address Format: 32-bit decimal (e.g., 192.168.1.1).</li>
+<li>Address Space: Limited (4.3 billion addresses).</li>
+<li>Challenges: Address exhaustion.</li>
 </ul>
-<h2 id="interview-questions"><strong>Interview Questions:</strong></h2>
+</li>
+<li>IPv6:<ul>
+<li>Major Use: Next-generation protocol.</li>
+<li>Address Format: 128-bit hexadecimal (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).</li>
+<li>Address Space: Vast (practically limitless).</li>
+<li>Features: Improved security and support for more devices.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>IP addresses are divided into five classes: A, B, C, D, and E (D &amp; E can be ignored tho)</p>
 <ul>
-<li>What is DHCP, and why is it used in networking?</li>
-<li>Explain the DHCP lease process.</li>
-<li>How do DHCP relay agents work, and when are they used?</li>
-<li>What are the benefits of using DHCP in a large-scale network environment?</li>
-<li>How does DHCP help in AWS DevOps environments, and what are DHCP option sets used for?</li>
+<li>
+<p><strong>Class A</strong>:</p>
+<ul>
+<li>In real networking terms, Class A addresses are like a large country with many states but only a few major cities. We divide it this way because we need a lot of addresses in each state, even though there aren't many states.</li>
+<li>Major Use: Public networks, mainly by large organizations or internet service providers (ISPs).</li>
+<li>Default Subnet Mask: 255.0.0.0</li>
+<li>Range: 1.0.0.0 to 126.0.0.0</li>
+<li>Example: ISPs assigning IP addresses to their customers.</li>
+</ul>
+</li>
+<li>
+<p><strong>Class B</strong>:</p>
+<ul>
+<li>Class B addresses are comparable to a big state with several counties but fewer cities in each county. We divide it like this because we want each county to have its own set of addresses, even if there aren't many counties.</li>
+<li>Major Use: Both public and private networks, commonly by medium-sized organizations or educational institutions.</li>
+<li>Default Subnet Mask: 255.255.0.0</li>
+<li>Range: 128.0.0.0 to 191.255.0.0</li>
+<li>Example: Companies setting up their own internal networks.</li>
+</ul>
+</li>
+<li>
+<p><strong>Class C</strong>:</p>
+<ul>
+<li>Class C addresses resemble a small town with only a few streets and houses on each street. We divide it this way because we want each street to have its own addresses, even if there aren't many streets.</li>
+<li>Major Use: Private networks, often by small businesses or home networks.</li>
+<li>Default Subnet Mask: 255.255.255.0</li>
+<li>Range: 192.0.0.0 to 223.255.255.0</li>
+<li>Example: Home Wi-Fi networks or small office networks.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Subnetting</strong>:</p>
+<ul>
+<li>When a network becomes overcrowded, we divide it into smaller neighborhoods (subnets) so that each group of devices (network) can have its own space without overcrowding. It helps us organize the network better and makes communication between devices smoother.</li>
+</ul>
+</li>
+</ul>
+<h3 id="real-world-example"><strong>Real World Example</strong></h3>
+<ul>
+<li>Consider a computer with a web server using port 80 and an email server using port 25. Without ports, data collisions would occur. Ports provide designated spaces for each application to communicate, avoiding confusion.</li>
+<li>If you have two computers with web servers using port 80, each computer's IP address ensures that data sent to port 80 reaches the intended web server on that specific computer</li>
+</ul>
+<h3 id="assignments"><strong>Assignments</strong></h3>
+<ul>
+<li>Identify the port numbers commonly used for web traffic, email, and secure web browsing.</li>
+<li>Configure a firewall to allow traffic on specific ports only.</li>
+</ul>
+<h3 id="interview-questions"><strong>Interview Questions</strong></h3>
+<ul>
+<li>What is the purpose of ports in networking?</li>
+<li>How does an IP address help in sending data over the internet?</li>
+<li>Can you give an example of a real-world scenario where ports and IP addresses are used?</li>
 </ul>
 
 
@@ -1670,6 +2422,44 @@
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../3-net-protocols/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Network Protocols (Set of Rules)">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Network Protocols (Set of Rules)
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../5-net-subnetting/" class="md-footer__link md-footer__link--next" aria-label="Next: Subnet vs Supernet (CIDR)">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Subnet vs Supernet (CIDR)
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
