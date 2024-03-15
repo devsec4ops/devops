@@ -9,10 +9,6 @@
       
       
       
-        <link rel="prev" href="../10-nat/">
-      
-      
-        <link rel="next" href="../3-protocols/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -20,7 +16,7 @@
     
     
       
-        <title>OSI Layer - DevOps Fundamentals</title>
+        <title>Network Protocols (Set of Rules) - DevOps Fundamentals</title>
       
     
     
@@ -70,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#osi-layer" class="md-skip">
+        <a href="#network-protocols-set-of-rules" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSI Layer
+              Network Protocols (Set of Rules)
             
           </span>
         </div>
@@ -205,20 +201,17 @@
         
   
   
-    
   
+    <li class="md-tabs__item">
+      <a href="../../1-os-networking" class="md-tabs__link">
+        
   
     
-    
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../0-index/" class="md-tabs__link">
-          
   
   OS & Networking
 
-        </a>
-      </li>
-    
+      </a>
+    </li>
   
 
       
@@ -497,421 +490,18 @@
       
   
   
-    
   
   
-  
-    
-    
-    
-      
+    <li class="md-nav__item">
+      <a href="../../1-os-networking" class="md-nav__link">
         
-        
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
-            
   
   <span class="md-ellipsis">
     OS & Networking
   </span>
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            OS & Networking
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../0-index/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Contents
-  </span>
-  
-
       </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../1-introduction/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Introduction
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../10-nat/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    NAT
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    OSI Layer
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    OSI Layer
-  </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what" class="md-nav__link">
-    <span class="md-ellipsis">
-      What?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#why" class="md-nav__link">
-    <span class="md-ellipsis">
-      Why?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#architecture" class="md-nav__link">
-    <span class="md-ellipsis">
-      Architecture
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#real-world-example-simple-web-application" class="md-nav__link">
-    <span class="md-ellipsis">
-      Real-World Example: Simple Web Application
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Real-World Example: Simple Web Application">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#osi-model-layers-in-action" class="md-nav__link">
-    <span class="md-ellipsis">
-      OSI Model Layers in Action:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#physical-layer-layer-1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Physical Layer (Layer 1)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#data-link-layer-layer-2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Data Link Layer (Layer 2)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#network-layer-layer-3" class="md-nav__link">
-    <span class="md-ellipsis">
-      Network Layer (Layer 3)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#transport-layer-layer-4" class="md-nav__link">
-    <span class="md-ellipsis">
-      Transport Layer (Layer 4)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#session-layer-layer-5" class="md-nav__link">
-    <span class="md-ellipsis">
-      Session Layer (Layer 5)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#presentation-layer-layer-6" class="md-nav__link">
-    <span class="md-ellipsis">
-      Presentation Layer (Layer 6)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#application-layer-layer-7" class="md-nav__link">
-    <span class="md-ellipsis">
-      Application Layer (Layer 7)
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#user-interaction-flow" class="md-nav__link">
-    <span class="md-ellipsis">
-      User Interaction Flow:
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../3-protocols/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Network Protocols (Set of Rules)
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../4-ports-ipaddress/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Ports and IP Address
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../5-subnetting/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Subnet vs Supernet (CIDR)
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../7-dns/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    DNS (Domain Name System)
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../8-topologies/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Network Topolgies
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../9-dhcp/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    DHCP
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
     </li>
   
 
@@ -2090,91 +1680,73 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#architecture" class="md-nav__link">
+  <a href="#how" class="md-nav__link">
     <span class="md-ellipsis">
-      Architecture
+      How?
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#real-world-example-simple-web-application" class="md-nav__link">
-    <span class="md-ellipsis">
-      Real-World Example: Simple Web Application
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Real-World Example: Simple Web Application">
+    <nav class="md-nav" aria-label="How?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#osi-model-layers-in-action" class="md-nav__link">
+  <a href="#osi-layer-7-application-layer" class="md-nav__link">
     <span class="md-ellipsis">
-      OSI Model Layers in Action:
+      OSI Layer 7: Application Layer
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#physical-layer-layer-1" class="md-nav__link">
+  <a href="#osi-layer-6-presentation-layer" class="md-nav__link">
     <span class="md-ellipsis">
-      Physical Layer (Layer 1)
+      OSI Layer 6: Presentation Layer
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#data-link-layer-layer-2" class="md-nav__link">
+  <a href="#osi-layer-5-session-layer" class="md-nav__link">
     <span class="md-ellipsis">
-      Data Link Layer (Layer 2)
+      OSI Layer 5: Session Layer
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#network-layer-layer-3" class="md-nav__link">
+  <a href="#osi-layer-4-transport-layer" class="md-nav__link">
     <span class="md-ellipsis">
-      Network Layer (Layer 3)
+      OSI Layer 4: Transport Layer
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#transport-layer-layer-4" class="md-nav__link">
+  <a href="#osi-layer-3-network-layer" class="md-nav__link">
     <span class="md-ellipsis">
-      Transport Layer (Layer 4)
+      OSI Layer 3: Network Layer
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#session-layer-layer-5" class="md-nav__link">
+  <a href="#osi-layer-2-data-link-layer" class="md-nav__link">
     <span class="md-ellipsis">
-      Session Layer (Layer 5)
+      OSI Layer 2: Data Link Layer
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#presentation-layer-layer-6" class="md-nav__link">
+  <a href="#osi-layer-1-physical-layer" class="md-nav__link">
     <span class="md-ellipsis">
-      Presentation Layer (Layer 6)
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#application-layer-layer-7" class="md-nav__link">
-    <span class="md-ellipsis">
-      Application Layer (Layer 7)
+      OSI Layer 1: Physical Layer
     </span>
   </a>
   
@@ -2182,15 +1754,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#user-interaction-flow" class="md-nav__link">
-    <span class="md-ellipsis">
-      User Interaction Flow:
-    </span>
-  </a>
   
 </li>
       
@@ -2209,78 +1772,136 @@
                   
 
 
-<h1 id="osi-layer"><strong>OSI Layer</strong></h1>
+<h1 id="network-protocols-set-of-rules"><strong>Network Protocols</strong> (Set of Rules)</h1>
 <h2 id="what"><strong>What?</strong></h2>
 <ul>
-<li>The OSI Model is like a factory assembly line for data communication, divided into 7 stages (layers). Each layer has a specific role, ensuring the product (data) is built correctly from start (creation) to finish (delivery).</li>
+<li>Networking protocols are like the rules of a game that ensure all participants play correctly and understand each other, crucial for the smooth operation of internet communications and web applications.</li>
 </ul>
+<p><img alt="Network protocols" src="../Protocols.png" /></p>
 <h2 id="why"><strong>Why?</strong></h2>
 <ul>
-<li>Standardizes network communication for different technologies.</li>
-<li>Simplifies troubleshooting by segmenting the network into manageable layers.</li>
-<li>Promotes interoperability and compatibility among various network products.</li>
-<li>Facilitates modular engineering, allowing changes in one layer without affecting others.</li>
+<li>Standardization: Makes sure different devices and software can communicate.</li>
+<li>Efficiency: Optimizes the use of network resources.</li>
+<li>Security: Protects data from unauthorized access and tampering.</li>
+<li>Reliability: Ensures data is accurately and consistently delivered.</li>
+<li>Scalability: Facilitates network growth and management.</li>
 </ul>
-<h2 id="architecture"><strong>Architecture</strong></h2>
-<p><img alt="OSI Model" src="../OSI-Model.png" /></p>
-<p>Source : BybyteGo</p>
-<h2 id="real-world-example-simple-web-application"><strong>Real-World Example:</strong> Simple Web Application</h2>
-<p>Imagine you've built a simple blog where users can create accounts, post articles, and comment. The web application is accessible from any web browser.</p>
-<h4 id="osi-model-layers-in-action">OSI Model Layers in Action:</h4>
-<p>A protocol is a set of rules that govern how data is transmitted and received over a network.</p>
-<ol>
+<h2 id="how"><strong>How?</strong></h2>
+<h3 id="osi-layer-7-application-layer">OSI Layer 7: Application Layer</h3>
+<ul>
 <li>
-<h4 id="physical-layer-layer-1">Physical Layer (Layer 1)</h4>
+<p><strong>HTTP/HTTPS</strong> (HyperText Transfer Protocol/Secure)</p>
+<ul>
+<li>What? : HTTP is for web data transfer, HTTPS adds encryption.</li>
+<li>Why? : Browsing websites, accessing web services securely.</li>
+<li>How? : <code>curl https://www.google.com</code> for HTTPS interaction.</li>
+</ul>
 </li>
 <li>
-<p>What It Does: Handles the physical connection between devices, like cables and Wi-Fi signals.</p>
+<p><strong>DNS</strong> (Domain Name System)</p>
+<ul>
+<li>What?: Translates domain names to IP addresses.</li>
+<li>Usage: Resolving domain names to access websites.</li>
+<li>How to check? : <code>nslookup www.google.com</code> for DNS resolution.</li>
+</ul>
 </li>
-<li>Protocols: Ethernet (for wired connections), Wi-Fi (for wireless connections).</li>
-</ol>
-<h4 id="data-link-layer-layer-2">Data Link Layer (Layer 2)</h4>
+<li>
+<p><strong>FTP (</strong>File Transfer Protocol)</p>
 <ul>
-<li>What It Does: Makes sure data packets go to the right device within a local network using hardware addresses.</li>
-<li>Protocols: Ethernet (for addressing with MAC addresses), 
-               PPP (Point-to-Point Protocol).</li>
+<li>How?: Transfers files between client and server.</li>
+<li>Why?: Uploading/downloading files to/from servers.</li>
+<li>How to check? : <code>ftp www.google.com</code> for FTP access.</li>
 </ul>
-<h4 id="network-layer-layer-3">Network Layer (Layer 3)</h4>
-<ul>
-<li>What It Does: Routes data across the internet, finding the best path for it to travel from source to destination.</li>
-<li>Protocols: IP (Internet Protocol, for routing), 
-               ICMP (Internet Control Message Protocol, for error reporting).</li>
+</li>
 </ul>
-<h4 id="transport-layer-layer-4">Transport Layer (Layer 4)</h4>
+<h3 id="osi-layer-6-presentation-layer">OSI Layer 6: Presentation Layer</h3>
 <ul>
-<li>What It Does: Breaks down data into packets for sending and then puts them back together at the destination. It checks if all data arrives correctly.</li>
-<li>Protocols: TCP (Transmission Control Protocol, ensures data is received in order and intact), 
-               UDP (User Datagram Protocol, for faster transmission without error checking).</li>
+<li><strong>SSL/TLS</strong> (Secure Sockets Layer/Transport Layer Security)<ul>
+<li>How?: Provides encryption, data integrity, and authentication for secure communication.</li>
+<li>Why?: Ensures secure transmission of sensitive data over the internet.</li>
+<li>How to check?: Use <code>openssl s_client -connect www.google.com:443</code> to inspect SSL/TLS connection.</li>
 </ul>
-<h4 id="session-layer-layer-5">Session Layer (Layer 5)</h4>
-<ul>
-<li>What It Does: Manages the start, keep-alive, and end of data exchanges or 'sessions' between two points.</li>
-<li>Protocols: NetBIOS (Network Basic Input/Output System), 
-               RPC (Remote Procedure Call).</li>
+</li>
 </ul>
-<h4 id="presentation-layer-layer-6">Presentation Layer (Layer 6)</h4>
+<h3 id="osi-layer-5-session-layer">OSI Layer 5: Session Layer</h3>
 <ul>
-<li>What It Does: Translates data between the application and the network. Converts data formats and encrypts/decrypts data.</li>
-<li>Protocols: SSL/TLS (Secure Sockets Layer/Transport Layer Security, for encryption),
-               JPEG, GIF (for image formats).</li>
+<li>There is no Obvious Protcol here , Operating System maintains this layer.</li>
+<li><strong>Session Establishment:</strong><ul>
+<li>How?: Handled by application layer protocols or the operating system's networking stack.</li>
+<li>Why?: Initiates communication sessions between applications.</li>
 </ul>
-<h4 id="application-layer-layer-7">Application Layer (Layer 7)</h4>
-<ul>
-<li>What It Does: The layer you interact with directly. It's what you see and use, like websites or email.</li>
-<li>Protocols: HTTP/HTTPS (HyperText Transfer Protocol/Secure, for web browsing), 
-               FTP (File Transfer Protocol, for file downloads and uploads), 
-               SMTP (Simple Mail Transfer Protocol, for sending emails).</li>
+</li>
+<li><strong>Data Synchronization:</strong><ul>
+<li>How?: Managed within application layer protocols (e.g., TCP) or the OS networking stack through sequencing and flow control.</li>
+<li>Why?: Ensures orderly and reliable data transmission.</li>
 </ul>
-<h2 id="user-interaction-flow"><strong>User Interaction Flow</strong>:</h2>
+</li>
+<li><strong>Session Management:</strong><ul>
+<li>How?: Application logic or the OS manages session timeouts, reconnections, and state.</li>
+<li>Why?: Maintains session integrity and continuity.</li>
+</ul>
+</li>
+<li><strong>Session Termination:</strong><ul>
+<li>How?: Initiated by applications or the OS by closing connections and releasing resources.</li>
+<li>Why?: Ends communication sessions when no longer needed.</li>
+</ul>
+</li>
+</ul>
+<h3 id="osi-layer-4-transport-layer">OSI Layer 4: Transport Layer</h3>
 <ul>
-<li>A user wants to read an article on your blog, so they type your blog's URL into their web browser.</li>
-<li>Their computer sends a request across the internet to find your server where the blog is hosted.</li>
-<li>The request travels down through the layers on the user's side, out into the network, and then up through the layers on the server side.</li>
-<li>Your server processes the request (application layer), prepares the data (presentation layer), maintains the session (session layer), ensures correct delivery (transport layer), finds the route (network layer), sends it over the physical network (data link layer), and finally, through the cables or Wi-Fi to the user's device (physical layer).</li>
-<li>The user's browser receives the data, interprets it, and displays the blog article for them to read.</li>
+<li>
+<p><strong>TCP</strong> (Transmission Control Protocol)</p>
+<ul>
+<li>How? : Ensures reliable, ordered delivery of data.</li>
+<li>Why? : Transmission of web data.</li>
+<li>How to check? : <code>netstat | grep tcp</code> (t in atn - for TCP connectivity check).</li>
+</ul>
+</li>
+<li>
+<p><strong>UDP</strong> (User Datagram Protocol)</p>
+<ul>
+<li>How?: Provides faster but less reliable data transmission.</li>
+<li>Why? : Real-time applications like streaming.</li>
+<li>How to check? : <code>netstat | grep udp</code> (u in aun - for UDP connectivity check).</li>
+</ul>
+</li>
+</ul>
+<h3 id="osi-layer-3-network-layer">OSI Layer 3: Network Layer</h3>
+<ul>
+<li>
+<p><strong>IP</strong> (Internet Protocol)</p>
+<ul>
+<li>How?: Routes packets across networks.</li>
+<li>Why?: Identifying and addressing devices.</li>
+<li>How to check? : <code>traceroute www.google.com</code> for packet path analysis.</li>
+</ul>
+</li>
+<li>
+<p><strong>ICMP</strong> (Internet Control Message Protocol)</p>
+<ul>
+<li>How?: Handles network error messages.</li>
+<li>Why? : Network troubleshooting.</li>
+<li>How to check? : <code>ping www.google.com</code> for reachability check.</li>
+</ul>
+</li>
+</ul>
+<h3 id="osi-layer-2-data-link-layer">OSI Layer 2: Data Link Layer</h3>
+<ul>
+<li><strong>DHCP</strong> (Dynamic Host Configuration Protocol)<ul>
+<li>How? : Dynamically assigns IP addresses to devices.</li>
+<li>Why? : Simplifies network setup and management.</li>
+<li>How to check? : No direct commands.</li>
+</ul>
+</li>
+</ul>
+<h3 id="osi-layer-1-physical-layer">OSI Layer 1: Physical Layer</h3>
+<ul>
+<li><strong>Ethernet</strong><ul>
+<li>What? : Physical connection standard.</li>
+<li>Why? : Wired network connections.</li>
+<li>How to check? : No direct commands.</li>
+</ul>
+</li>
 </ul>
 
 
@@ -2306,44 +1927,6 @@
       
         <footer class="md-footer">
   
-    
-      
-      <nav class="md-footer__inner md-grid" aria-label="Footer" >
-        
-          
-          <a href="../10-nat/" class="md-footer__link md-footer__link--prev" aria-label="Previous: NAT">
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-            </div>
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              <div class="md-ellipsis">
-                NAT
-              </div>
-            </div>
-          </a>
-        
-        
-          
-          <a href="../3-protocols/" class="md-footer__link md-footer__link--next" aria-label="Next: Network Protocols (Set of Rules)">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              <div class="md-ellipsis">
-                Network Protocols (Set of Rules)
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-            </div>
-          </a>
-        
-      </nav>
     
   
   <div class="md-footer-meta md-typeset">
