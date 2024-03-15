@@ -16,7 +16,7 @@
     
     
       
-        <title>Subnet vs Supernet (CIDR) - DevOps Fundamentals</title>
+        <title>OSI Layer - DevOps Fundamentals</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#subnet-vs-supernet-cidr" class="md-skip">
+        <a href="#osi-layer" class="md-skip">
           Skip to content
         </a>
       
@@ -99,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Subnet vs Supernet (CIDR)
+              OSI Layer
             
           </span>
         </div>
@@ -309,17 +309,16 @@
   
   
   
+    <li class="md-tabs__item">
+      <a href="../../6-containerisation-orchestration" class="md-tabs__link">
+        
+  
     
-    
-      <li class="md-tabs__item">
-        <a href="../../6-containerisation-orchestration/1-introduction/" class="md-tabs__link">
-          
   
   Containerisation & Orchestration
 
-        </a>
-      </li>
-    
+      </a>
+    </li>
   
 
       
@@ -354,17 +353,16 @@
   
   
   
+    <li class="md-tabs__item">
+      <a href="../../8-monitoring" class="md-tabs__link">
+        
+  
     
-    
-      <li class="md-tabs__item">
-        <a href="../../8-monitoring/1-introduction/" class="md-tabs__link">
-          
   
   Monitoring
 
-        </a>
-      </li>
-    
+      </a>
+    </li>
   
 
       
@@ -1208,62 +1206,16 @@
   
   
   
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
+    <li class="md-nav__item">
+      <a href="../../6-containerisation-orchestration" class="md-nav__link">
         
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
-        
-          
-          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
-            
   
   <span class="md-ellipsis">
     Containerisation & Orchestration
   </span>
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8">
-            <span class="md-nav__icon md-icon"></span>
-            Containerisation & Orchestration
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../6-containerisation-orchestration/1-introduction/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Introcution
-  </span>
-  
-
       </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
     </li>
   
 
@@ -1575,62 +1527,16 @@
   
   
   
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
+    <li class="md-nav__item">
+      <a href="../../8-monitoring" class="md-nav__link">
         
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
-        
-          
-          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
-            
   
   <span class="md-ellipsis">
     Monitoring
   </span>
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_10">
-            <span class="md-nav__icon md-icon"></span>
-            Monitoring
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../8-monitoring/1-introduction/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Introcution
-  </span>
-  
-
       </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
     </li>
   
 
@@ -1680,9 +1586,105 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how" class="md-nav__link">
+  <a href="#architecture" class="md-nav__link">
     <span class="md-ellipsis">
-      How?
+      Architecture
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#real-world-example-simple-web-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Real-World Example: Simple Web Application
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Real-World Example: Simple Web Application">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#osi-model-layers-in-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      OSI Model Layers in Action:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#physical-layer-layer-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Physical Layer (Layer 1)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-link-layer-layer-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Link Layer (Layer 2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#network-layer-layer-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Network Layer (Layer 3)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transport-layer-layer-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transport Layer (Layer 4)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#session-layer-layer-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Session Layer (Layer 5)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#presentation-layer-layer-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Presentation Layer (Layer 6)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#application-layer-layer-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Application Layer (Layer 7)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-interaction-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Interaction Flow:
     </span>
   </a>
   
@@ -1703,58 +1705,79 @@
                   
 
 
-<h1 id="subnet-vs-supernet-cidr">Subnet vs Supernet (CIDR)</h1>
+<h1 id="osi-layer"><strong>OSI Layer</strong></h1>
 <h2 id="what"><strong>What?</strong></h2>
 <ul>
-<li><strong>Subnet</strong>:</li>
-<li>Subnetting is like dividing a big office building into smaller departments. Each department has its own space and resources, making it easier to manage and control.</li>
-<li><strong>Supernet (CIDR)</strong>:</li>
-<li>Supernetting, or CIDR, is like combining multiple office buildings into one big complex. It simplifies management by treating them as one entity, reducing administrative overhead.</li>
+<li>The OSI Model is like a factory assembly line for data communication, divided into 7 stages (layers). Each layer has a specific role, ensuring the product (data) is built correctly from start (creation) to finish (delivery).</li>
 </ul>
 <h2 id="why"><strong>Why?</strong></h2>
 <ul>
-<li><strong>Subnet</strong>:</li>
-<li>It helps organize and secure the network, improves performance, and simplifies management by breaking it into manageable parts.</li>
-<li><strong>Supernet (CIDR)</strong>:</li>
-<li>It reduces routing table size, optimizes IP address usage, and streamlines network management for larger-scale networks.</li>
+<li>Standardizes network communication for different technologies.</li>
+<li>Simplifies troubleshooting by segmenting the network into manageable layers.</li>
+<li>Promotes interoperability and compatibility among various network products.</li>
+<li>Facilitates modular engineering, allowing changes in one layer without affecting others.</li>
 </ul>
-<h2 id="how"><strong>How?</strong></h2>
+<h2 id="architecture"><strong>Architecture</strong></h2>
+<p><img alt="OSI Model" src="../OSI-Model.png" /></p>
+<p>Source : BybyteGo</p>
+<h2 id="real-world-example-simple-web-application"><strong>Real-World Example:</strong> Simple Web Application</h2>
+<p>Imagine you've built a simple blog where users can create accounts, post articles, and comment. The web application is accessible from any web browser.</p>
+<h4 id="osi-model-layers-in-action">OSI Model Layers in Action:</h4>
+<p>A protocol is a set of rules that govern how data is transmitted and received over a network.</p>
+<ol>
+<li>
+<h4 id="physical-layer-layer-1">Physical Layer (Layer 1)</h4>
+</li>
+<li>
+<p>What It Does: Handles the physical connection between devices, like cables and Wi-Fi signals.</p>
+</li>
+<li>Protocols: Ethernet (for wired connections), Wi-Fi (for wireless connections).</li>
+</ol>
+<h4 id="data-link-layer-layer-2">Data Link Layer (Layer 2)</h4>
 <ul>
-<li>Imagine you're managing a company network with three departments: Sales, Marketing &amp; IT. </li>
-<li>Each department requires its own <strong>subnet</strong> for better organization and security.</li>
-<li>Sales Department:<ul>
-<li>IP address range: 192.168.1.0/24</li>
-<li>Example IP addresses: 192.168.1.1, 192.168.1.2, etc.</li>
+<li>What It Does: Makes sure data packets go to the right device within a local network using hardware addresses.</li>
+<li>Protocols: Ethernet (for addressing with MAC addresses), 
+               PPP (Point-to-Point Protocol).</li>
 </ul>
-</li>
-<li>Marketing Department:<ul>
-<li>IP address range: 192.168.2.0/24</li>
-<li>Example IP addresses: 192.168.2.1, 192.168.2.2, etc.</li>
-</ul>
-</li>
-<li>IT Department:<ul>
-<li>IP address range: 192.168.3.0/24</li>
-<li>Example IP addresses: 192.168.3.1, 192.168.3.2, etc.</li>
-</ul>
-</li>
-</ul>
-<p>With subnetting, each department has its own distinct IP address range, allowing for efficient management and isolation of network traffic.</p>
-<p><strong>Supernetting</strong> (CIDR for Branch Offices):
-Now, consider the company's branch offices, each with its own IP address range:
-- Branch Office 1:
-    - IP address range: 10.0.0.0/24
-- Branch Office 2:
-    - IP address range: 10.0.1.0/24
-- Branch Office 3:
-    - IP address range: 10.0.2.0/24</p>
+<h4 id="network-layer-layer-3">Network Layer (Layer 3)</h4>
 <ul>
-<li>Instead of managing each branch office network separately, you can aggregate these networks into one larger network using CIDR notation:</li>
-<li>Branch Offices Supernet:</li>
-<li>Aggregate IP address ranges: 10.0.0.0/22</li>
-<li>Example IP addresses: 10.0.0.1, 10.0.1.2, 10.0.2.3, etc.</li>
+<li>What It Does: Routes data across the internet, finding the best path for it to travel from source to destination.</li>
+<li>Protocols: IP (Internet Protocol, for routing), 
+               ICMP (Internet Control Message Protocol, for error reporting).</li>
 </ul>
-<p>With supernetting, you combine multiple smaller networks into one larger network, simplifying routing and management.</p>
-<p>In summary, subnetting is used to divide a network into smaller, more manageable segments (like departments in a company), while supernetting (CIDR) is used to combine multiple smaller networks into one larger network (like branch offices in a company). Both techniques optimize network management and routing but serve different purposes.</p>
+<h4 id="transport-layer-layer-4">Transport Layer (Layer 4)</h4>
+<ul>
+<li>What It Does: Breaks down data into packets for sending and then puts them back together at the destination. It checks if all data arrives correctly.</li>
+<li>Protocols: TCP (Transmission Control Protocol, ensures data is received in order and intact), 
+               UDP (User Datagram Protocol, for faster transmission without error checking).</li>
+</ul>
+<h4 id="session-layer-layer-5">Session Layer (Layer 5)</h4>
+<ul>
+<li>What It Does: Manages the start, keep-alive, and end of data exchanges or 'sessions' between two points.</li>
+<li>Protocols: NetBIOS (Network Basic Input/Output System), 
+               RPC (Remote Procedure Call).</li>
+</ul>
+<h4 id="presentation-layer-layer-6">Presentation Layer (Layer 6)</h4>
+<ul>
+<li>What It Does: Translates data between the application and the network. Converts data formats and encrypts/decrypts data.</li>
+<li>Protocols: SSL/TLS (Secure Sockets Layer/Transport Layer Security, for encryption),
+               JPEG, GIF (for image formats).</li>
+</ul>
+<h4 id="application-layer-layer-7">Application Layer (Layer 7)</h4>
+<ul>
+<li>What It Does: The layer you interact with directly. It's what you see and use, like websites or email.</li>
+<li>Protocols: HTTP/HTTPS (HyperText Transfer Protocol/Secure, for web browsing), 
+               FTP (File Transfer Protocol, for file downloads and uploads), 
+               SMTP (Simple Mail Transfer Protocol, for sending emails).</li>
+</ul>
+<h2 id="user-interaction-flow"><strong>User Interaction Flow</strong>:</h2>
+<ul>
+<li>A user wants to read an article on your blog, so they type your blog's URL into their web browser.</li>
+<li>Their computer sends a request across the internet to find your server where the blog is hosted.</li>
+<li>The request travels down through the layers on the user's side, out into the network, and then up through the layers on the server side.</li>
+<li>Your server processes the request (application layer), prepares the data (presentation layer), maintains the session (session layer), ensures correct delivery (transport layer), finds the route (network layer), sends it over the physical network (data link layer), and finally, through the cables or Wi-Fi to the user's device (physical layer).</li>
+<li>The user's browser receives the data, interprets it, and displays the blog article for them to read.</li>
+</ul>
 
 
 
