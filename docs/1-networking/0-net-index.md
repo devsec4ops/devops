@@ -1,4 +1,4 @@
-# Contents
+# Index
 
 ## Introduction to Networking
 - What is Networking?
