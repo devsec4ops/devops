@@ -1,4 +1,4 @@
-# Installation
+# **Installation**
 ### AWS Linux Instance Setup: Quick Guide
 
 #### Step 1: Sign Up for AWS

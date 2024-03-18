@@ -1,4 +1,4 @@
-# Files & Directories
+# **Files & Directories**
 
 #### Basic Commands for Navigation
 

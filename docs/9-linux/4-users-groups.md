@@ -1,4 +1,4 @@
-# Users & Groups
+# **Users & Groups**
 
 
 ### 1\. Users and Group Management
@@ -24,7 +24,7 @@ Every file and directory in Linux has associated access rights, which are define
 #### Changing Ownership
 -   Change Owner: `chown username:groupname filename`
   
--   #### File Permissions and Ownership
+#### File Permissions and Ownership
 - Change file permissions.
     `chmod 755 script.sh`
 - Change file owner and group.

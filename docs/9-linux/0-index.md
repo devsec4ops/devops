@@ -1,4 +1,4 @@
-# Index
+# **Index**
 
 #### Module 1: Introduction to Operating Systems
 
