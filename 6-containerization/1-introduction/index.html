@@ -12,7 +12,7 @@
         <link rel="prev" href="../../5-ci-cd/1-introduction/">
       
       
-        <link rel="next" href="../../7-iaas/ansible/0-index/">
+        <link rel="next" href="../2-architecture/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -1521,6 +1521,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1531,6 +1542,115 @@
 
       </a>
       
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what" class="md-nav__link">
+    <span class="md-ellipsis">
+      What?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how" class="md-nav__link">
+    <span class="md-ellipsis">
+      How?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2-architecture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Architecture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3-magic-behind-docker/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Magic behind Docker
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4-networking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4 networking
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -2185,6 +2305,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what" class="md-nav__link">
+    <span class="md-ellipsis">
+      What?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how" class="md-nav__link">
+    <span class="md-ellipsis">
+      How?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2199,6 +2354,34 @@
 
 
 <h1 id="introduction">Introduction</h1>
+<h2 id="what"><strong>What?</strong></h2>
+<ul>
+<li>Imagine Docker as a shipping container for software. Just as shipping containers can hold anything you want and be moved around easily without worrying about what's inside, Docker containers can hold your software, complete with all the parts it needs to run. This means you can move your software easily from your computer to a server, or anywhere else, and it will work just the same.</li>
+</ul>
+<h2 id="why"><strong>Why?</strong></h2>
+<ul>
+<li>Consistency: Ensures that your application runs the same way everywhere, from development to production.</li>
+<li>Efficiency: Shares the OS kernel, making it lighter and faster than traditional virtual machines.</li>
+<li>Isolation: Keeps applications separate from each other, preventing conflicts.</li>
+<li>Portability: Allows you to run your applications on any machine that supports Docker without modification.</li>
+<li>Scalability: Makes it easier to scale your applications up or down in response to demand.</li>
+<li>Speed: Reduces the time it takes to set up new development environments and to deploy applications.</li>
+</ul>
+<h2 id="how"><strong>How?</strong></h2>
+<ul>
+<li>Installing Docker:<ol>
+<li>Download and install Docker Desktop for your operating system (Windows, macOS, Linux).</li>
+<li>Verify installation by running <code>docker --version</code> in your terminal or command prompt.</li>
+</ol>
+</li>
+<li>Understanding Docker Components:<ul>
+<li>Dockerfile: A text file with instructions to build a Docker image. It includes the base image to use, software to install, and commands to run.</li>
+<li>Docker Images: Read-only templates used to create containers. Images include everything needed to run an application - the code, a runtime, libraries, environment variables, and config files.</li>
+<li>Docker Containers: Running instances of Docker images. Containers are isolated environments that contain everything an application needs to run.</li>
+<li>Docker Hub: A registry where you can share and download Docker images. Similar to GitHub but for Docker images.</li>
+</ul>
+</li>
+</ul>
 
 
 
@@ -2245,13 +2428,13 @@
         
         
           
-          <a href="../../7-iaas/ansible/0-index/" class="md-footer__link md-footer__link--next" aria-label="Next: Index">
+          <a href="../2-architecture/" class="md-footer__link md-footer__link--next" aria-label="Next: Architecture">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Index
+                Architecture
               </div>
             </div>
             <div class="md-footer__button md-icon">
