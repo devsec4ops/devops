@@ -5,8 +5,8 @@ copyright: Copyright &copy; 2024 Mr Konsultant
 
 theme:
   name: material
-  favicon: assets/favicon.png
-  logo: assets/logo.png
+  favicon: assets/eguru_favicon.png
+  logo: assets/eguru.png
   palette:
     scheme: slate
     primary: teal
@@ -55,6 +55,10 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.emoji
   - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra:
   generator: false
