@@ -1,0 +1,13 @@
+# Ignore the site directory
+/site/
+
+# Ignore Python virtual environments
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore .DS_Store files (for macOS users)
+.DS_Store

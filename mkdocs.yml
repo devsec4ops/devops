@@ -9,15 +9,21 @@ theme:
   logo: assets/logo.png
   palette:
     scheme: slate
-    primary: black
-    accent: indigo
+    primary: teal
+    accent: light green
   font:
     text: Roboto
     code: Roboto Mono
   features:
     - navigation.tabs
     - navigation.footer
+    - toc.integration
+    - navigation.top
+    - search.suggestions
+    - search.highlight
     - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
 
 nav:
   - Contents: index.md
