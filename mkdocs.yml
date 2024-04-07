@@ -28,14 +28,15 @@ theme:
 nav:
   - Contents: index.md
   - Introduction: 0-introduction/
-  - OS & Networking: 1-os-networking/
+  - Networking: 1-networking/
   - Scripting: 2-scripting/
   - Version Control: 3-version-control/
   - Cloud: 4-cloud-basics/
   - CI/CD: 5-ci-cd/
-  - Containerisation & Orchestration: 6-containerisation-orchestration/
+  - Containerisation: 6-containerization/
   - IaaS: 7-iaas/
-  - Monitoring: 8-monitoring/
+  - Observability: 8-observability/
+  - Linux: 9-linux/
 
 plugins:
   - search
